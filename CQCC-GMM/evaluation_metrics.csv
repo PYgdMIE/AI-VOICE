@@ -1,0 +1,12 @@
+key,value
+accuracy,0.8698409286328461
+eer,0.6820437173125922
+eer_percent,68.20437173125922
+eer_threshold,-3.345054807556815
+roc_auc,0.24527088566459646
+bonafide_total,7457
+spoof_total,66975
+true_bonafide_pred_bonafide,1
+true_bonafide_pred_spoof,7456
+true_spoof_pred_bonafide,2232
+true_spoof_pred_spoof,64743
