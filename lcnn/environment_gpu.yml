@@ -1,0 +1,24 @@
+# GPU env: conda env create -f environment_gpu.yml
+# Then replace PyTorch with CUDA 12.8 build (RTX 50 / sm_120 need this, not pytorch-cuda 12.1):
+#   conda activate aivoice-lcnn
+#   powershell -ExecutionPolicy Bypass -File scripts\install_pytorch_gpu.ps1
+name: aivoice-lcnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - librosa
+  - scipy
+  - tqdm
+  - ffmpeg
+  - pip:
+    - tensorboard
+    - soundfile
