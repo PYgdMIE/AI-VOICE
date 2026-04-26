@@ -158,8 +158,4 @@ So, at the moment:
 
 That means the current model should be described as a strong baseline with sensible hand-tuned settings, rather than a fully hyperparameter-optimized final system.
 
-## 4. Recommended Short Description
 
-If you need a concise methods-style summary, this wording matches the current implementation:
-
-> The LCNN baseline was trained on the ASVspoof 2019 LA train partition, validated on the official dev partition, and evaluated on the ASVspoof 2021 LA eval set. Model selection was based on validation accuracy. Performance was summarized using accuracy, confusion statistics, false positive / false negative rates, and equal error rate (EER). Hyperparameters were selected pragmatically from stable baseline values rather than through an exhaustive search.
