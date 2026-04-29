@@ -1,0 +1,9 @@
+key,value
+bonafide_files,15680
+spoof_files,22800
+bonafide_frames_used,300000
+spoof_frames_used,300000
+bonafide_lower_bound,-121.83621215820312
+spoof_lower_bound,-115.39131927490234
+gmm_components,16
+max_frames_per_class,300000
