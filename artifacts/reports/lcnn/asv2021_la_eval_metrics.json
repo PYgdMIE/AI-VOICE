@@ -1,0 +1,16 @@
+{
+  "n_scored_with_label": 148176,
+  "accuracy_threshold_0.5": 0.8678126012309686,
+  "accuracy_at_eer_threshold": 0.8200585789871504,
+  "eer": 0.17994105822464018,
+  "eer_threshold_on_p_spoof": 0.9990922212600708,
+  "confusion_at_threshold_0.5": {
+    "tp": 118581,
+    "tn": 10008,
+    "fp": 4808,
+    "fn": 14779
+  },
+  "fpr_at_threshold_0.5": 0.32451403887688984,
+  "fnr_at_threshold_0.5": 0.11082033593281344,
+  "note": "EER: threshold sweep on P(spoof); min |FPR-FNR|. Accuracy@0.5: pred = (P_spoof>=0.5)."
+}
