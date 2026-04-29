@@ -1,0 +1,1 @@
+Rawnet2/artifacts/rawnet2_ljspeech_aug/best.pth filter=lfs diff=lfs merge=lfs -text
