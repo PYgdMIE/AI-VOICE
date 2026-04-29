@@ -1,8 +1,0 @@
-data/ 
-models/ 
-reports/ 
-.cache/ 
-smoke_data/ 
-*.joblib 
-__pycache__/ 
-*.pyc 

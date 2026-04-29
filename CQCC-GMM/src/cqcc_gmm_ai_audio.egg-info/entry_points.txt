@@ -1,2 +1,0 @@
-[console_scripts]
-cqcc-gmm = cqcc_gmm.cli:main

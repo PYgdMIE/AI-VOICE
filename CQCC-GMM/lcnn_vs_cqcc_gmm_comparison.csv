@@ -1,3 +1,0 @@
-model,accuracy,eer,roc_auc,f1_spoof_at_eer,notes
-LCNN only,0.8169 @ EER,0.1831,0.8935,0.8892,From PROJECT_REPORT.html
-CQCC-GMM,0.8698 @ threshold=0 / 0.3180 @ EER,0.6820,0.2453,0.4562,Evaluated on manifests/asv2021_la_eval_whisper_subset.csv
