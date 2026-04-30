@@ -1,0 +1,117 @@
+{
+  "num_rows": 74432,
+  "num_rows_with_truth": 74432,
+  "overall": {
+    "num_rows": 74432,
+    "label_counts": {
+      "bonafide": 7457,
+      "spoof": 66975
+    },
+    "prediction_counts": {
+      "bonafide": 10410,
+      "spoof": 64022
+    },
+    "confusion_matrix": {
+      "true_bonafide_pred_bonafide": 6092,
+      "true_bonafide_pred_spoof": 1365,
+      "true_spoof_pred_bonafide": 4318,
+      "true_spoof_pred_spoof": 62657
+    },
+    "accuracy": 0.9236484307824592,
+    "balanced_accuracy": 0.8762393492254685,
+    "bonafide_metrics": {
+      "precision": 0.5852065321805956,
+      "recall": 0.8169505162934155,
+      "f1": 0.6819275759780601
+    },
+    "spoof_metrics": {
+      "precision": 0.9786792040236169,
+      "recall": 0.9355281821575214,
+      "f1": 0.9566173271143613
+    },
+    "mean_bonafide_score": {
+      "all": -3.719063519340713,
+      "true_bonafide": 2.986216928725329,
+      "true_spoof": -4.465629794834979
+    },
+    "eer": 0.10983085854982527,
+    "eer_percent": 10.983085854982527,
+    "eer_threshold": -2.926016092300415
+  },
+  "by_split": {
+    "eval": {
+      "num_rows": 67042,
+      "label_counts": {
+        "bonafide": 6714,
+        "spoof": 60328
+      },
+      "prediction_counts": {
+        "bonafide": 9360,
+        "spoof": 57682
+      },
+      "confusion_matrix": {
+        "true_bonafide_pred_bonafide": 5495,
+        "true_bonafide_pred_spoof": 1219,
+        "true_spoof_pred_bonafide": 3865,
+        "true_spoof_pred_spoof": 56463
+      },
+      "accuracy": 0.9241669401270846,
+      "balanced_accuracy": 0.8771863228510278,
+      "bonafide_metrics": {
+        "precision": 0.5870726495726496,
+        "recall": 0.8184390825141495,
+        "f1": 0.6837128281697151
+      },
+      "spoof_metrics": {
+        "precision": 0.9788668908845047,
+        "recall": 0.9359335631879061,
+        "f1": 0.9569189051775273
+      },
+      "mean_bonafide_score": {
+        "all": -3.723524593351421,
+        "true_bonafide": 2.9820192640531884,
+        "true_spoof": -4.469795337593142
+      },
+      "eer": 0.10857611100425804,
+      "eer_percent": 10.857611100425805,
+      "eer_threshold": -2.876293182373047
+    },
+    "progress": {
+      "num_rows": 7390,
+      "label_counts": {
+        "bonafide": 743,
+        "spoof": 6647
+      },
+      "prediction_counts": {
+        "bonafide": 1050,
+        "spoof": 6340
+      },
+      "confusion_matrix": {
+        "true_bonafide_pred_bonafide": 597,
+        "true_bonafide_pred_spoof": 146,
+        "true_spoof_pred_bonafide": 453,
+        "true_spoof_pred_spoof": 6194
+      },
+      "accuracy": 0.9189445196211096,
+      "balanced_accuracy": 0.8676741407340078,
+      "bonafide_metrics": {
+        "precision": 0.5685714285714286,
+        "recall": 0.8034993270524899,
+        "f1": 0.6659230340211937
+      },
+      "spoof_metrics": {
+        "precision": 0.9769716088328075,
+        "recall": 0.9318489544155258,
+        "f1": 0.9538769538769539
+      },
+      "mean_bonafide_score": {
+        "all": -3.678592704208656,
+        "true_bonafide": 3.02414845040602,
+        "true_spoof": -4.427823436550871
+      },
+      "eer": 0.12254407568275269,
+      "eer_percent": 12.25440756827527,
+      "eer_threshold": -3.2407383918762207
+    }
+  }
+}

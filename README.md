@@ -1,52 +1,11 @@
-# AI Voice Deepfake Detection
+# AI Voice Model Packages
 
-This repository contains multiple voice anti-spoofing model baselines.
+This repository was overwritten and re-uploaded with the two packaged model folders requested on 2026-04-30 12:29:53 +12:00.
 
-## Methods
+## Contents
 
-- `methods/cqcc_gmm`: CQCC feature extraction plus GMM baseline.
-- `methods/rawnet2`: RawNet2 end-to-end neural baseline.
-- `methods/lcnn`: LCNN acoustic baseline for human vs spoof classification.
+- CQCC-GMM/ - CQCC-GMM source, manifests, trained model, training report, and evaluation report.
+- Rawnet2/ - RawNet2 source, scripts, trained checkpoints, training artifacts, and Whisper subset evaluation outputs.
+- UPLOAD_REPORT.md - upload report with source paths, included artifacts, metrics, and file hashes.
 
-## Repository Layout
-
-- `methods/`: model source code, configs, scripts, and manifests.
-- `artifacts/checkpoints/`: trained model files.
-- `artifacts/reports/`: training and evaluation reports.
-- `artifacts/predictions/`: scored CSV or prediction outputs.
-- `artifacts/logs/`: training and evaluation logs.
-- `tests/`: method-specific test placeholders or helper assets.
-- `data/`: local dataset placeholders only; full datasets are not committed.
-- `docs/`: project notes and upload documentation.
-
-## Current Packages
-
-```text
-methods/
-  cqcc_gmm/
-  rawnet2/
-  lcnn/
-
-artifacts/
-  checkpoints/
-    cqcc_gmm/
-    rawnet2/
-    lcnn/
-  reports/
-    cqcc_gmm/
-    rawnet2/
-    lcnn/
-  predictions/
-    cqcc_gmm/
-    rawnet2/
-    lcnn/
-  logs/
-    cqcc_gmm/
-    rawnet2/
-    lcnn/
-
-tests/
-  cqcc_gmm/
-  rawnet2/
-  lcnn/
-```
+Large model files are tracked with Git LFS through .gitattributes.

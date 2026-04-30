@@ -1,0 +1,3 @@
+﻿system,subset,eer_percent,min_tDCF,accuracy,balanced_accuracy,auc,f1_spoof,num_rows,num_rows_with_truth,source_title,source_url
+RawNet2 rawnet2_ljspeech_aug best.pth,User-selected CSV aligned with ASVspoof2021 LA CM keys,10.983085854982527,,0.9236484307824592,0.8762393492254685,,0.9566173271143613,74432,74432,Local evaluation,C:\Users\Administrator\Downloads\RawNet2\outputs\rawnet2_ljspeech_aug_whisper_scored.csv
+LCNN baseline from PROJECT_REPORT.html,PROJECT_REPORT.html ASVspoof2021 LA eval (66931 samples),18.310000000000002,,0.8678,,0.8935,,66931,66931,PROJECT_REPORT.html LCNN branch metrics,C:\Users\Administrator\Downloads\PROJECT_REPORT.html
