@@ -74,4 +74,4 @@ Git LFS is enabled for large artifacts through `.gitattributes`.
 
 ## Commit
 
-- Commit hash: `40e0bf799cf3f2e2c0154b67a28e100abe0fb3a1`
+- LCNN package upload commit: `d250c262109c50f61bfc53c54d6e1c1c69a24760`
