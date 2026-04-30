@@ -1,11 +1,43 @@
 # AI Voice Model Packages
 
-This repository was overwritten and re-uploaded with the two packaged model folders requested on 2026-04-30 12:29:53 +12:00.
+This repository contains three independent voice anti-spoofing model packages.
 
 ## Contents
 
-- CQCC-GMM/ - CQCC-GMM source, manifests, trained model, training report, and evaluation report.
-- Rawnet2/ - RawNet2 source, scripts, trained checkpoints, training artifacts, and Whisper subset evaluation outputs.
-- UPLOAD_REPORT.md - upload report with source paths, included artifacts, metrics, and file hashes.
+- `CQCC-GMM/` - CQCC feature extraction plus GMM baseline package.
+- `Rawnet2/` - RawNet2 end-to-end neural baseline package.
+- `LCNN/` - LCNN acoustic baseline package, including ASVspoof2019 + LJSpeech training scripts and ASVspoof2021 subset evaluation reports.
+- `UPLOAD_REPORT.md` - upload report for the previously packaged baselines.
+- `LCNN_UPLOAD_REPORT.md` - upload report for the LCNN package.
 
-Large model files are tracked with Git LFS through .gitattributes.
+## Large Files
+
+Large model artifacts are tracked with Git LFS through `.gitattributes`.
+
+Tracked patterns:
+
+```text
+*.pth
+*.pt
+*.joblib
+*.zip
+```
+
+## Repository Layout
+
+```text
+AI-VOICE/
+  CQCC-GMM/
+  Rawnet2/
+  LCNN/
+    artifacts/
+      checkpoints/
+      reports/
+      predictions/
+      logs/
+  README.md
+  UPLOAD_REPORT.md
+  LCNN_UPLOAD_REPORT.md
+  .gitattributes
+  .gitignore
+```

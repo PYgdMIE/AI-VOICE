@@ -1,0 +1,733 @@
+[2026-04-29 20:19:04] device: cuda pid=39144
+[2026-04-29 20:19:04] cmd: scripts\train_lcnn_asvspoof2019_ljspeech.py --asvspoof-root C:\Users\mie\Downloads\AIVOICE\LA\LA --ljspeech-root C:\Users\mie\Downloads\AIVOICE\LJSpeech-1.1 --device auto --epochs 30 --batch-size 16 --resume-auto
+[2026-04-29 20:19:06] train_items=36515 (human=13715, ai=22800) | val_items=26809 (human=4513, ai=22296)
+[2026-04-29 20:19:18] epoch 1/30 batch 100/2283 running_loss=0.3591 running_acc=0.8700
+[2026-04-29 20:19:30] epoch 1/30 batch 200/2283 running_loss=0.2794 running_acc=0.8972
+[2026-04-29 20:19:40] epoch 1/30 batch 300/2283 running_loss=0.2443 running_acc=0.9117
+[2026-04-29 20:19:50] epoch 1/30 batch 400/2283 running_loss=0.2216 running_acc=0.9209
+[2026-04-29 20:20:00] epoch 1/30 batch 500/2283 running_loss=0.2071 running_acc=0.9263
+[2026-04-29 20:20:11] epoch 1/30 batch 600/2283 running_loss=0.2004 running_acc=0.9276
+[2026-04-29 20:20:22] epoch 1/30 batch 700/2283 running_loss=0.1915 running_acc=0.9304
+[2026-04-29 20:20:33] epoch 1/30 batch 800/2283 running_loss=0.1841 running_acc=0.9327
+[2026-04-29 20:20:42] epoch 1/30 batch 900/2283 running_loss=0.1778 running_acc=0.9342
+[2026-04-29 20:20:52] epoch 1/30 batch 1000/2283 running_loss=0.1694 running_acc=0.9369
+[2026-04-29 20:21:01] epoch 1/30 batch 1100/2283 running_loss=0.1671 running_acc=0.9373
+[2026-04-29 20:21:11] epoch 1/30 batch 1200/2283 running_loss=0.1604 running_acc=0.9398
+[2026-04-29 20:21:20] epoch 1/30 batch 1300/2283 running_loss=0.1552 running_acc=0.9417
+[2026-04-29 20:21:30] epoch 1/30 batch 1400/2283 running_loss=0.1519 running_acc=0.9428
+[2026-04-29 20:21:39] epoch 1/30 batch 1500/2283 running_loss=0.1484 running_acc=0.9441
+[2026-04-29 20:21:49] epoch 1/30 batch 1600/2283 running_loss=0.1448 running_acc=0.9455
+[2026-04-29 20:21:59] epoch 1/30 batch 1700/2283 running_loss=0.1416 running_acc=0.9465
+[2026-04-29 20:22:11] epoch 1/30 batch 1800/2283 running_loss=0.1384 running_acc=0.9480
+[2026-04-29 20:22:22] epoch 1/30 batch 1900/2283 running_loss=0.1352 running_acc=0.9494
+[2026-04-29 20:22:32] epoch 1/30 batch 2000/2283 running_loss=0.1326 running_acc=0.9504
+[2026-04-29 20:22:44] epoch 1/30 batch 2100/2283 running_loss=0.1291 running_acc=0.9518
+[2026-04-29 20:22:55] epoch 1/30 batch 2200/2283 running_loss=0.1263 running_acc=0.9527
+[2026-04-29 20:25:50] epoch 1: train_loss=0.1249 acc=0.9534 | val_loss=0.1289 val_acc=0.9533
+[2026-04-29 20:25:50]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:25:50]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:25:52] epoch 2/30 batch 100/2283 running_loss=0.0752 running_acc=0.9731
+[2026-04-29 20:25:55] epoch 2/30 batch 200/2283 running_loss=0.0735 running_acc=0.9750
+[2026-04-29 20:25:58] epoch 2/30 batch 300/2283 running_loss=0.0706 running_acc=0.9748
+[2026-04-29 20:26:00] epoch 2/30 batch 400/2283 running_loss=0.0710 running_acc=0.9744
+[2026-04-29 20:26:03] epoch 2/30 batch 500/2283 running_loss=0.0643 running_acc=0.9766
+[2026-04-29 20:26:05] epoch 2/30 batch 600/2283 running_loss=0.0667 running_acc=0.9755
+[2026-04-29 20:26:08] epoch 2/30 batch 700/2283 running_loss=0.0655 running_acc=0.9762
+[2026-04-29 20:26:11] epoch 2/30 batch 800/2283 running_loss=0.0651 running_acc=0.9762
+[2026-04-29 20:26:13] epoch 2/30 batch 900/2283 running_loss=0.0632 running_acc=0.9773
+[2026-04-29 20:26:16] epoch 2/30 batch 1000/2283 running_loss=0.0632 running_acc=0.9774
+[2026-04-29 20:26:18] epoch 2/30 batch 1100/2283 running_loss=0.0614 running_acc=0.9781
+[2026-04-29 20:26:21] epoch 2/30 batch 1200/2283 running_loss=0.0629 running_acc=0.9775
+[2026-04-29 20:26:23] epoch 2/30 batch 1300/2283 running_loss=0.0620 running_acc=0.9780
+[2026-04-29 20:26:26] epoch 2/30 batch 1400/2283 running_loss=0.0622 running_acc=0.9777
+[2026-04-29 20:26:28] epoch 2/30 batch 1500/2283 running_loss=0.0612 running_acc=0.9782
+[2026-04-29 20:26:31] epoch 2/30 batch 1600/2283 running_loss=0.0604 running_acc=0.9786
+[2026-04-29 20:26:33] epoch 2/30 batch 1700/2283 running_loss=0.0601 running_acc=0.9789
+[2026-04-29 20:26:36] epoch 2/30 batch 1800/2283 running_loss=0.0592 running_acc=0.9792
+[2026-04-29 20:26:38] epoch 2/30 batch 1900/2283 running_loss=0.0596 running_acc=0.9791
+[2026-04-29 20:26:41] epoch 2/30 batch 2000/2283 running_loss=0.0592 running_acc=0.9794
+[2026-04-29 20:26:43] epoch 2/30 batch 2100/2283 running_loss=0.0588 running_acc=0.9795
+[2026-04-29 20:26:46] epoch 2/30 batch 2200/2283 running_loss=0.0586 running_acc=0.9795
+[2026-04-29 20:27:17] epoch 2: train_loss=0.0584 acc=0.9795 | val_loss=0.1420 val_acc=0.9485
+[2026-04-29 20:27:17]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:27:19] epoch 3/30 batch 100/2283 running_loss=0.0371 running_acc=0.9850
+[2026-04-29 20:27:21] epoch 3/30 batch 200/2283 running_loss=0.0357 running_acc=0.9866
+[2026-04-29 20:27:24] epoch 3/30 batch 300/2283 running_loss=0.0359 running_acc=0.9865
+[2026-04-29 20:27:26] epoch 3/30 batch 400/2283 running_loss=0.0407 running_acc=0.9859
+[2026-04-29 20:27:29] epoch 3/30 batch 500/2283 running_loss=0.0419 running_acc=0.9858
+[2026-04-29 20:27:31] epoch 3/30 batch 600/2283 running_loss=0.0409 running_acc=0.9860
+[2026-04-29 20:27:34] epoch 3/30 batch 700/2283 running_loss=0.0402 running_acc=0.9864
+[2026-04-29 20:27:36] epoch 3/30 batch 800/2283 running_loss=0.0398 running_acc=0.9870
+[2026-04-29 20:27:39] epoch 3/30 batch 900/2283 running_loss=0.0394 running_acc=0.9871
+[2026-04-29 20:27:41] epoch 3/30 batch 1000/2283 running_loss=0.0387 running_acc=0.9871
+[2026-04-29 20:27:44] epoch 3/30 batch 1100/2283 running_loss=0.0393 running_acc=0.9870
+[2026-04-29 20:27:46] epoch 3/30 batch 1200/2283 running_loss=0.0385 running_acc=0.9874
+[2026-04-29 20:27:49] epoch 3/30 batch 1300/2283 running_loss=0.0384 running_acc=0.9875
+[2026-04-29 20:27:51] epoch 3/30 batch 1400/2283 running_loss=0.0376 running_acc=0.9875
+[2026-04-29 20:27:54] epoch 3/30 batch 1500/2283 running_loss=0.0368 running_acc=0.9879
+[2026-04-29 20:27:57] epoch 3/30 batch 1600/2283 running_loss=0.0361 running_acc=0.9879
+[2026-04-29 20:27:59] epoch 3/30 batch 1700/2283 running_loss=0.0368 running_acc=0.9878
+[2026-04-29 20:28:02] epoch 3/30 batch 1800/2283 running_loss=0.0362 running_acc=0.9879
+[2026-04-29 20:28:04] epoch 3/30 batch 1900/2283 running_loss=0.0361 running_acc=0.9879
+[2026-04-29 20:28:07] epoch 3/30 batch 2000/2283 running_loss=0.0359 running_acc=0.9878
+[2026-04-29 20:28:10] epoch 3/30 batch 2100/2283 running_loss=0.0353 running_acc=0.9880
+[2026-04-29 20:28:12] epoch 3/30 batch 2200/2283 running_loss=0.0355 running_acc=0.9880
+[2026-04-29 20:28:44] epoch 3: train_loss=0.0359 acc=0.9881 | val_loss=0.3688 val_acc=0.9184
+[2026-04-29 20:28:44]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:28:47] epoch 4/30 batch 100/2283 running_loss=0.0324 running_acc=0.9900
+[2026-04-29 20:28:49] epoch 4/30 batch 200/2283 running_loss=0.0303 running_acc=0.9909
+[2026-04-29 20:28:52] epoch 4/30 batch 300/2283 running_loss=0.0307 running_acc=0.9904
+[2026-04-29 20:28:55] epoch 4/30 batch 400/2283 running_loss=0.0307 running_acc=0.9908
+[2026-04-29 20:28:57] epoch 4/30 batch 500/2283 running_loss=0.0313 running_acc=0.9902
+[2026-04-29 20:29:00] epoch 4/30 batch 600/2283 running_loss=0.0312 running_acc=0.9902
+[2026-04-29 20:29:02] epoch 4/30 batch 700/2283 running_loss=0.0299 running_acc=0.9904
+[2026-04-29 20:29:05] epoch 4/30 batch 800/2283 running_loss=0.0292 running_acc=0.9905
+[2026-04-29 20:29:07] epoch 4/30 batch 900/2283 running_loss=0.0289 running_acc=0.9905
+[2026-04-29 20:29:10] epoch 4/30 batch 1000/2283 running_loss=0.0280 running_acc=0.9906
+[2026-04-29 20:29:12] epoch 4/30 batch 1100/2283 running_loss=0.0281 running_acc=0.9907
+[2026-04-29 20:29:15] epoch 4/30 batch 1200/2283 running_loss=0.0288 running_acc=0.9904
+[2026-04-29 20:29:17] epoch 4/30 batch 1300/2283 running_loss=0.0282 running_acc=0.9907
+[2026-04-29 20:29:20] epoch 4/30 batch 1400/2283 running_loss=0.0282 running_acc=0.9908
+[2026-04-29 20:29:23] epoch 4/30 batch 1500/2283 running_loss=0.0279 running_acc=0.9908
+[2026-04-29 20:29:25] epoch 4/30 batch 1600/2283 running_loss=0.0283 running_acc=0.9907
+[2026-04-29 20:29:28] epoch 4/30 batch 1700/2283 running_loss=0.0277 running_acc=0.9909
+[2026-04-29 20:29:30] epoch 4/30 batch 1800/2283 running_loss=0.0275 running_acc=0.9910
+[2026-04-29 20:29:33] epoch 4/30 batch 1900/2283 running_loss=0.0268 running_acc=0.9912
+[2026-04-29 20:29:36] epoch 4/30 batch 2000/2283 running_loss=0.0269 running_acc=0.9913
+[2026-04-29 20:29:38] epoch 4/30 batch 2100/2283 running_loss=0.0264 running_acc=0.9915
+[2026-04-29 20:29:41] epoch 4/30 batch 2200/2283 running_loss=0.0260 running_acc=0.9916
+[2026-04-29 20:30:11] epoch 4: train_loss=0.0255 acc=0.9917 | val_loss=0.0620 val_acc=0.9792
+[2026-04-29 20:30:11]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:30:12]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:30:14] epoch 5/30 batch 100/2283 running_loss=0.0167 running_acc=0.9956
+[2026-04-29 20:30:17] epoch 5/30 batch 200/2283 running_loss=0.0169 running_acc=0.9938
+[2026-04-29 20:30:19] epoch 5/30 batch 300/2283 running_loss=0.0190 running_acc=0.9938
+[2026-04-29 20:30:22] epoch 5/30 batch 400/2283 running_loss=0.0189 running_acc=0.9938
+[2026-04-29 20:30:24] epoch 5/30 batch 500/2283 running_loss=0.0195 running_acc=0.9932
+[2026-04-29 20:30:27] epoch 5/30 batch 600/2283 running_loss=0.0195 running_acc=0.9938
+[2026-04-29 20:30:29] epoch 5/30 batch 700/2283 running_loss=0.0202 running_acc=0.9933
+[2026-04-29 20:30:32] epoch 5/30 batch 800/2283 running_loss=0.0194 running_acc=0.9935
+[2026-04-29 20:30:34] epoch 5/30 batch 900/2283 running_loss=0.0217 running_acc=0.9931
+[2026-04-29 20:30:37] epoch 5/30 batch 1000/2283 running_loss=0.0226 running_acc=0.9930
+[2026-04-29 20:30:40] epoch 5/30 batch 1100/2283 running_loss=0.0229 running_acc=0.9926
+[2026-04-29 20:30:42] epoch 5/30 batch 1200/2283 running_loss=0.0226 running_acc=0.9929
+[2026-04-29 20:30:45] epoch 5/30 batch 1300/2283 running_loss=0.0228 running_acc=0.9928
+[2026-04-29 20:30:47] epoch 5/30 batch 1400/2283 running_loss=0.0221 running_acc=0.9930
+[2026-04-29 20:30:50] epoch 5/30 batch 1500/2283 running_loss=0.0228 running_acc=0.9928
+[2026-04-29 20:30:53] epoch 5/30 batch 1600/2283 running_loss=0.0228 running_acc=0.9926
+[2026-04-29 20:30:55] epoch 5/30 batch 1700/2283 running_loss=0.0218 running_acc=0.9929
+[2026-04-29 20:30:58] epoch 5/30 batch 1800/2283 running_loss=0.0213 running_acc=0.9931
+[2026-04-29 20:31:00] epoch 5/30 batch 1900/2283 running_loss=0.0210 running_acc=0.9930
+[2026-04-29 20:31:03] epoch 5/30 batch 2000/2283 running_loss=0.0208 running_acc=0.9931
+[2026-04-29 20:31:06] epoch 5/30 batch 2100/2283 running_loss=0.0214 running_acc=0.9929
+[2026-04-29 20:31:08] epoch 5/30 batch 2200/2283 running_loss=0.0217 running_acc=0.9927
+[2026-04-29 20:31:39] epoch 5: train_loss=0.0216 acc=0.9927 | val_loss=0.0511 val_acc=0.9828
+[2026-04-29 20:31:39]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:31:39]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:31:42] epoch 6/30 batch 100/2283 running_loss=0.0297 running_acc=0.9906
+[2026-04-29 20:31:45] epoch 6/30 batch 200/2283 running_loss=0.0266 running_acc=0.9909
+[2026-04-29 20:31:47] epoch 6/30 batch 300/2283 running_loss=0.0218 running_acc=0.9927
+[2026-04-29 20:31:50] epoch 6/30 batch 400/2283 running_loss=0.0237 running_acc=0.9925
+[2026-04-29 20:31:53] epoch 6/30 batch 500/2283 running_loss=0.0226 running_acc=0.9928
+[2026-04-29 20:31:55] epoch 6/30 batch 600/2283 running_loss=0.0209 running_acc=0.9931
+[2026-04-29 20:31:58] epoch 6/30 batch 700/2283 running_loss=0.0213 running_acc=0.9932
+[2026-04-29 20:32:00] epoch 6/30 batch 800/2283 running_loss=0.0217 running_acc=0.9927
+[2026-04-29 20:32:03] epoch 6/30 batch 900/2283 running_loss=0.0207 running_acc=0.9931
+[2026-04-29 20:32:05] epoch 6/30 batch 1000/2283 running_loss=0.0208 running_acc=0.9931
+[2026-04-29 20:32:08] epoch 6/30 batch 1100/2283 running_loss=0.0198 running_acc=0.9935
+[2026-04-29 20:32:10] epoch 6/30 batch 1200/2283 running_loss=0.0185 running_acc=0.9940
+[2026-04-29 20:32:13] epoch 6/30 batch 1300/2283 running_loss=0.0180 running_acc=0.9942
+[2026-04-29 20:32:15] epoch 6/30 batch 1400/2283 running_loss=0.0175 running_acc=0.9944
+[2026-04-29 20:32:18] epoch 6/30 batch 1500/2283 running_loss=0.0180 running_acc=0.9942
+[2026-04-29 20:32:20] epoch 6/30 batch 1600/2283 running_loss=0.0182 running_acc=0.9942
+[2026-04-29 20:32:23] epoch 6/30 batch 1700/2283 running_loss=0.0183 running_acc=0.9941
+[2026-04-29 20:32:25] epoch 6/30 batch 1800/2283 running_loss=0.0180 running_acc=0.9942
+[2026-04-29 20:32:28] epoch 6/30 batch 1900/2283 running_loss=0.0175 running_acc=0.9943
+[2026-04-29 20:32:31] epoch 6/30 batch 2000/2283 running_loss=0.0173 running_acc=0.9943
+[2026-04-29 20:32:33] epoch 6/30 batch 2100/2283 running_loss=0.0180 running_acc=0.9941
+[2026-04-29 20:32:36] epoch 6/30 batch 2200/2283 running_loss=0.0185 running_acc=0.9939
+[2026-04-29 20:33:04] epoch 6: train_loss=0.0180 acc=0.9941 | val_loss=0.0481 val_acc=0.9854
+[2026-04-29 20:33:04]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:33:04]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:33:07] epoch 7/30 batch 100/2283 running_loss=0.0033 running_acc=1.0000
+[2026-04-29 20:33:09] epoch 7/30 batch 200/2283 running_loss=0.0070 running_acc=0.9988
+[2026-04-29 20:33:12] epoch 7/30 batch 300/2283 running_loss=0.0148 running_acc=0.9956
+[2026-04-29 20:33:14] epoch 7/30 batch 400/2283 running_loss=0.0147 running_acc=0.9955
+[2026-04-29 20:33:17] epoch 7/30 batch 500/2283 running_loss=0.0166 running_acc=0.9952
+[2026-04-29 20:33:20] epoch 7/30 batch 600/2283 running_loss=0.0154 running_acc=0.9957
+[2026-04-29 20:33:22] epoch 7/30 batch 700/2283 running_loss=0.0162 running_acc=0.9951
+[2026-04-29 20:33:25] epoch 7/30 batch 800/2283 running_loss=0.0150 running_acc=0.9955
+[2026-04-29 20:33:27] epoch 7/30 batch 900/2283 running_loss=0.0148 running_acc=0.9954
+[2026-04-29 20:33:30] epoch 7/30 batch 1000/2283 running_loss=0.0163 running_acc=0.9947
+[2026-04-29 20:33:32] epoch 7/30 batch 1100/2283 running_loss=0.0164 running_acc=0.9947
+[2026-04-29 20:33:35] epoch 7/30 batch 1200/2283 running_loss=0.0165 running_acc=0.9946
+[2026-04-29 20:33:37] epoch 7/30 batch 1300/2283 running_loss=0.0169 running_acc=0.9944
+[2026-04-29 20:33:40] epoch 7/30 batch 1400/2283 running_loss=0.0170 running_acc=0.9944
+[2026-04-29 20:33:42] epoch 7/30 batch 1500/2283 running_loss=0.0165 running_acc=0.9946
+[2026-04-29 20:33:45] epoch 7/30 batch 1600/2283 running_loss=0.0161 running_acc=0.9947
+[2026-04-29 20:33:48] epoch 7/30 batch 1700/2283 running_loss=0.0158 running_acc=0.9949
+[2026-04-29 20:33:50] epoch 7/30 batch 1800/2283 running_loss=0.0161 running_acc=0.9947
+[2026-04-29 20:33:53] epoch 7/30 batch 1900/2283 running_loss=0.0164 running_acc=0.9945
+[2026-04-29 20:33:56] epoch 7/30 batch 2000/2283 running_loss=0.0164 running_acc=0.9946
+[2026-04-29 20:33:58] epoch 7/30 batch 2100/2283 running_loss=0.0167 running_acc=0.9945
+[2026-04-29 20:34:01] epoch 7/30 batch 2200/2283 running_loss=0.0180 running_acc=0.9940
+[2026-04-29 20:34:32] epoch 7: train_loss=0.0180 acc=0.9941 | val_loss=0.0387 val_acc=0.9867
+[2026-04-29 20:34:32]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:34:32]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:34:35] epoch 8/30 batch 100/2283 running_loss=0.0167 running_acc=0.9944
+[2026-04-29 20:34:38] epoch 8/30 batch 200/2283 running_loss=0.0165 running_acc=0.9950
+[2026-04-29 20:34:40] epoch 8/30 batch 300/2283 running_loss=0.0160 running_acc=0.9950
+[2026-04-29 20:34:43] epoch 8/30 batch 400/2283 running_loss=0.0158 running_acc=0.9950
+[2026-04-29 20:34:45] epoch 8/30 batch 500/2283 running_loss=0.0149 running_acc=0.9955
+[2026-04-29 20:34:48] epoch 8/30 batch 600/2283 running_loss=0.0130 running_acc=0.9961
+[2026-04-29 20:34:50] epoch 8/30 batch 700/2283 running_loss=0.0127 running_acc=0.9961
+[2026-04-29 20:34:53] epoch 8/30 batch 800/2283 running_loss=0.0136 running_acc=0.9958
+[2026-04-29 20:34:56] epoch 8/30 batch 900/2283 running_loss=0.0141 running_acc=0.9956
+[2026-04-29 20:34:58] epoch 8/30 batch 1000/2283 running_loss=0.0144 running_acc=0.9954
+[2026-04-29 20:35:01] epoch 8/30 batch 1100/2283 running_loss=0.0138 running_acc=0.9956
+[2026-04-29 20:35:03] epoch 8/30 batch 1200/2283 running_loss=0.0135 running_acc=0.9956
+[2026-04-29 20:35:06] epoch 8/30 batch 1300/2283 running_loss=0.0134 running_acc=0.9955
+[2026-04-29 20:35:08] epoch 8/30 batch 1400/2283 running_loss=0.0132 running_acc=0.9956
+[2026-04-29 20:35:11] epoch 8/30 batch 1500/2283 running_loss=0.0139 running_acc=0.9957
+[2026-04-29 20:35:13] epoch 8/30 batch 1600/2283 running_loss=0.0138 running_acc=0.9957
+[2026-04-29 20:35:16] epoch 8/30 batch 1700/2283 running_loss=0.0139 running_acc=0.9956
+[2026-04-29 20:35:18] epoch 8/30 batch 1800/2283 running_loss=0.0144 running_acc=0.9955
+[2026-04-29 20:35:21] epoch 8/30 batch 1900/2283 running_loss=0.0146 running_acc=0.9954
+[2026-04-29 20:35:23] epoch 8/30 batch 2000/2283 running_loss=0.0143 running_acc=0.9954
+[2026-04-29 20:35:26] epoch 8/30 batch 2100/2283 running_loss=0.0139 running_acc=0.9956
+[2026-04-29 20:35:29] epoch 8/30 batch 2200/2283 running_loss=0.0140 running_acc=0.9957
+[2026-04-29 20:36:00] epoch 8: train_loss=0.0138 acc=0.9957 | val_loss=0.0464 val_acc=0.9850
+[2026-04-29 20:36:00]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:36:02] epoch 9/30 batch 100/2283 running_loss=0.0119 running_acc=0.9975
+[2026-04-29 20:36:05] epoch 9/30 batch 200/2283 running_loss=0.0124 running_acc=0.9956
+[2026-04-29 20:36:08] epoch 9/30 batch 300/2283 running_loss=0.0144 running_acc=0.9954
+[2026-04-29 20:36:10] epoch 9/30 batch 400/2283 running_loss=0.0133 running_acc=0.9958
+[2026-04-29 20:36:13] epoch 9/30 batch 500/2283 running_loss=0.0116 running_acc=0.9964
+[2026-04-29 20:36:15] epoch 9/30 batch 600/2283 running_loss=0.0130 running_acc=0.9960
+[2026-04-29 20:36:18] epoch 9/30 batch 700/2283 running_loss=0.0145 running_acc=0.9957
+[2026-04-29 20:36:20] epoch 9/30 batch 800/2283 running_loss=0.0142 running_acc=0.9957
+[2026-04-29 20:36:23] epoch 9/30 batch 900/2283 running_loss=0.0135 running_acc=0.9960
+[2026-04-29 20:36:25] epoch 9/30 batch 1000/2283 running_loss=0.0136 running_acc=0.9960
+[2026-04-29 20:36:27] epoch 9/30 batch 1100/2283 running_loss=0.0132 running_acc=0.9961
+[2026-04-29 20:36:30] epoch 9/30 batch 1200/2283 running_loss=0.0129 running_acc=0.9961
+[2026-04-29 20:36:32] epoch 9/30 batch 1300/2283 running_loss=0.0123 running_acc=0.9963
+[2026-04-29 20:36:35] epoch 9/30 batch 1400/2283 running_loss=0.0119 running_acc=0.9964
+[2026-04-29 20:36:38] epoch 9/30 batch 1500/2283 running_loss=0.0123 running_acc=0.9963
+[2026-04-29 20:36:40] epoch 9/30 batch 1600/2283 running_loss=0.0128 running_acc=0.9961
+[2026-04-29 20:36:43] epoch 9/30 batch 1700/2283 running_loss=0.0126 running_acc=0.9962
+[2026-04-29 20:36:45] epoch 9/30 batch 1800/2283 running_loss=0.0121 running_acc=0.9964
+[2026-04-29 20:36:48] epoch 9/30 batch 1900/2283 running_loss=0.0122 running_acc=0.9962
+[2026-04-29 20:36:50] epoch 9/30 batch 2000/2283 running_loss=0.0121 running_acc=0.9963
+[2026-04-29 20:36:53] epoch 9/30 batch 2100/2283 running_loss=0.0121 running_acc=0.9962
+[2026-04-29 20:36:55] epoch 9/30 batch 2200/2283 running_loss=0.0139 running_acc=0.9959
+[2026-04-29 20:37:26] epoch 9: train_loss=0.0138 acc=0.9959 | val_loss=0.0573 val_acc=0.9827
+[2026-04-29 20:37:26]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:37:29] epoch 10/30 batch 100/2283 running_loss=0.0088 running_acc=0.9988
+[2026-04-29 20:37:31] epoch 10/30 batch 200/2283 running_loss=0.0059 running_acc=0.9994
+[2026-04-29 20:37:34] epoch 10/30 batch 300/2283 running_loss=0.0077 running_acc=0.9981
+[2026-04-29 20:37:37] epoch 10/30 batch 400/2283 running_loss=0.0065 running_acc=0.9984
+[2026-04-29 20:37:39] epoch 10/30 batch 500/2283 running_loss=0.0056 running_acc=0.9986
+[2026-04-29 20:37:42] epoch 10/30 batch 600/2283 running_loss=0.0060 running_acc=0.9983
+[2026-04-29 20:37:45] epoch 10/30 batch 700/2283 running_loss=0.0061 running_acc=0.9983
+[2026-04-29 20:37:47] epoch 10/30 batch 800/2283 running_loss=0.0068 running_acc=0.9978
+[2026-04-29 20:37:50] epoch 10/30 batch 900/2283 running_loss=0.0071 running_acc=0.9978
+[2026-04-29 20:37:52] epoch 10/30 batch 1000/2283 running_loss=0.0078 running_acc=0.9976
+[2026-04-29 20:37:55] epoch 10/30 batch 1100/2283 running_loss=0.0086 running_acc=0.9972
+[2026-04-29 20:37:58] epoch 10/30 batch 1200/2283 running_loss=0.0088 running_acc=0.9972
+[2026-04-29 20:38:00] epoch 10/30 batch 1300/2283 running_loss=0.0082 running_acc=0.9974
+[2026-04-29 20:38:03] epoch 10/30 batch 1400/2283 running_loss=0.0079 running_acc=0.9975
+[2026-04-29 20:38:05] epoch 10/30 batch 1500/2283 running_loss=0.0080 running_acc=0.9975
+[2026-04-29 20:38:08] epoch 10/30 batch 1600/2283 running_loss=0.0079 running_acc=0.9975
+[2026-04-29 20:38:10] epoch 10/30 batch 1700/2283 running_loss=0.0080 running_acc=0.9975
+[2026-04-29 20:38:13] epoch 10/30 batch 1800/2283 running_loss=0.0078 running_acc=0.9975
+[2026-04-29 20:38:16] epoch 10/30 batch 1900/2283 running_loss=0.0079 running_acc=0.9975
+[2026-04-29 20:38:18] epoch 10/30 batch 2000/2283 running_loss=0.0077 running_acc=0.9975
+[2026-04-29 20:38:21] epoch 10/30 batch 2100/2283 running_loss=0.0076 running_acc=0.9976
+[2026-04-29 20:38:23] epoch 10/30 batch 2200/2283 running_loss=0.0081 running_acc=0.9975
+[2026-04-29 20:38:54] epoch 10: train_loss=0.0098 acc=0.9971 | val_loss=0.0532 val_acc=0.9818
+[2026-04-29 20:38:55]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:38:57] epoch 11/30 batch 100/2283 running_loss=0.0149 running_acc=0.9969
+[2026-04-29 20:39:00] epoch 11/30 batch 200/2283 running_loss=0.0141 running_acc=0.9972
+[2026-04-29 20:39:02] epoch 11/30 batch 300/2283 running_loss=0.0123 running_acc=0.9971
+[2026-04-29 20:39:05] epoch 11/30 batch 400/2283 running_loss=0.0122 running_acc=0.9970
+[2026-04-29 20:39:07] epoch 11/30 batch 500/2283 running_loss=0.0113 running_acc=0.9971
+[2026-04-29 20:39:10] epoch 11/30 batch 600/2283 running_loss=0.0106 running_acc=0.9973
+[2026-04-29 20:39:13] epoch 11/30 batch 700/2283 running_loss=0.0108 running_acc=0.9970
+[2026-04-29 20:39:15] epoch 11/30 batch 800/2283 running_loss=0.0106 running_acc=0.9970
+[2026-04-29 20:39:18] epoch 11/30 batch 900/2283 running_loss=0.0101 running_acc=0.9971
+[2026-04-29 20:39:20] epoch 11/30 batch 1000/2283 running_loss=0.0093 running_acc=0.9972
+[2026-04-29 20:39:23] epoch 11/30 batch 1100/2283 running_loss=0.0086 running_acc=0.9975
+[2026-04-29 20:39:25] epoch 11/30 batch 1200/2283 running_loss=0.0083 running_acc=0.9976
+[2026-04-29 20:39:28] epoch 11/30 batch 1300/2283 running_loss=0.0085 running_acc=0.9975
+[2026-04-29 20:39:30] epoch 11/30 batch 1400/2283 running_loss=0.0086 running_acc=0.9975
+[2026-04-29 20:39:33] epoch 11/30 batch 1500/2283 running_loss=0.0092 running_acc=0.9974
+[2026-04-29 20:39:35] epoch 11/30 batch 1600/2283 running_loss=0.0090 running_acc=0.9974
+[2026-04-29 20:39:38] epoch 11/30 batch 1700/2283 running_loss=0.0087 running_acc=0.9975
+[2026-04-29 20:39:40] epoch 11/30 batch 1800/2283 running_loss=0.0095 running_acc=0.9973
+[2026-04-29 20:39:43] epoch 11/30 batch 1900/2283 running_loss=0.0099 running_acc=0.9971
+[2026-04-29 20:39:45] epoch 11/30 batch 2000/2283 running_loss=0.0096 running_acc=0.9972
+[2026-04-29 20:39:48] epoch 11/30 batch 2100/2283 running_loss=0.0097 running_acc=0.9972
+[2026-04-29 20:39:50] epoch 11/30 batch 2200/2283 running_loss=0.0095 running_acc=0.9972
+[2026-04-29 20:40:19] epoch 11: train_loss=0.0094 acc=0.9973 | val_loss=0.0703 val_acc=0.9821
+[2026-04-29 20:40:19]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:40:22] epoch 12/30 batch 100/2283 running_loss=0.0030 running_acc=0.9981
+[2026-04-29 20:40:25] epoch 12/30 batch 200/2283 running_loss=0.0024 running_acc=0.9988
+[2026-04-29 20:40:27] epoch 12/30 batch 300/2283 running_loss=0.0035 running_acc=0.9981
+[2026-04-29 20:40:30] epoch 12/30 batch 400/2283 running_loss=0.0046 running_acc=0.9980
+[2026-04-29 20:40:32] epoch 12/30 batch 500/2283 running_loss=0.0040 running_acc=0.9982
+[2026-04-29 20:40:35] epoch 12/30 batch 600/2283 running_loss=0.0053 running_acc=0.9980
+[2026-04-29 20:40:37] epoch 12/30 batch 700/2283 running_loss=0.0065 running_acc=0.9977
+[2026-04-29 20:40:40] epoch 12/30 batch 800/2283 running_loss=0.0063 running_acc=0.9977
+[2026-04-29 20:40:43] epoch 12/30 batch 900/2283 running_loss=0.0067 running_acc=0.9976
+[2026-04-29 20:40:45] epoch 12/30 batch 1000/2283 running_loss=0.0074 running_acc=0.9976
+[2026-04-29 20:40:48] epoch 12/30 batch 1100/2283 running_loss=0.0078 running_acc=0.9975
+[2026-04-29 20:40:50] epoch 12/30 batch 1200/2283 running_loss=0.0081 running_acc=0.9974
+[2026-04-29 20:40:53] epoch 12/30 batch 1300/2283 running_loss=0.0086 running_acc=0.9971
+[2026-04-29 20:40:56] epoch 12/30 batch 1400/2283 running_loss=0.0083 running_acc=0.9972
+[2026-04-29 20:40:58] epoch 12/30 batch 1500/2283 running_loss=0.0080 running_acc=0.9973
+[2026-04-29 20:41:01] epoch 12/30 batch 1600/2283 running_loss=0.0081 running_acc=0.9973
+[2026-04-29 20:41:03] epoch 12/30 batch 1700/2283 running_loss=0.0082 running_acc=0.9973
+[2026-04-29 20:41:06] epoch 12/30 batch 1800/2283 running_loss=0.0090 running_acc=0.9971
+[2026-04-29 20:41:08] epoch 12/30 batch 1900/2283 running_loss=0.0088 running_acc=0.9972
+[2026-04-29 20:41:11] epoch 12/30 batch 2000/2283 running_loss=0.0090 running_acc=0.9971
+[2026-04-29 20:41:13] epoch 12/30 batch 2100/2283 running_loss=0.0091 running_acc=0.9970
+[2026-04-29 20:41:16] epoch 12/30 batch 2200/2283 running_loss=0.0094 running_acc=0.9970
+[2026-04-29 20:41:45] epoch 12: train_loss=0.0096 acc=0.9969 | val_loss=0.0469 val_acc=0.9869
+[2026-04-29 20:41:45]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:41:45]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:41:48] epoch 13/30 batch 100/2283 running_loss=0.0039 running_acc=0.9981
+[2026-04-29 20:41:51] epoch 13/30 batch 200/2283 running_loss=0.0039 running_acc=0.9984
+[2026-04-29 20:41:53] epoch 13/30 batch 300/2283 running_loss=0.0041 running_acc=0.9983
+[2026-04-29 20:41:55] epoch 13/30 batch 400/2283 running_loss=0.0043 running_acc=0.9984
+[2026-04-29 20:41:58] epoch 13/30 batch 500/2283 running_loss=0.0038 running_acc=0.9986
+[2026-04-29 20:42:00] epoch 13/30 batch 600/2283 running_loss=0.0052 running_acc=0.9984
+[2026-04-29 20:42:03] epoch 13/30 batch 700/2283 running_loss=0.0055 running_acc=0.9982
+[2026-04-29 20:42:05] epoch 13/30 batch 800/2283 running_loss=0.0074 running_acc=0.9978
+[2026-04-29 20:42:08] epoch 13/30 batch 900/2283 running_loss=0.0074 running_acc=0.9978
+[2026-04-29 20:42:10] epoch 13/30 batch 1000/2283 running_loss=0.0070 running_acc=0.9979
+[2026-04-29 20:42:13] epoch 13/30 batch 1100/2283 running_loss=0.0074 running_acc=0.9977
+[2026-04-29 20:42:15] epoch 13/30 batch 1200/2283 running_loss=0.0075 running_acc=0.9976
+[2026-04-29 20:42:18] epoch 13/30 batch 1300/2283 running_loss=0.0080 running_acc=0.9975
+[2026-04-29 20:42:20] epoch 13/30 batch 1400/2283 running_loss=0.0078 running_acc=0.9975
+[2026-04-29 20:42:23] epoch 13/30 batch 1500/2283 running_loss=0.0075 running_acc=0.9975
+[2026-04-29 20:42:25] epoch 13/30 batch 1600/2283 running_loss=0.0078 running_acc=0.9975
+[2026-04-29 20:42:28] epoch 13/30 batch 1700/2283 running_loss=0.0076 running_acc=0.9976
+[2026-04-29 20:42:30] epoch 13/30 batch 1800/2283 running_loss=0.0075 running_acc=0.9976
+[2026-04-29 20:42:33] epoch 13/30 batch 1900/2283 running_loss=0.0072 running_acc=0.9977
+[2026-04-29 20:42:35] epoch 13/30 batch 2000/2283 running_loss=0.0074 running_acc=0.9977
+[2026-04-29 20:42:38] epoch 13/30 batch 2100/2283 running_loss=0.0073 running_acc=0.9977
+[2026-04-29 20:42:40] epoch 13/30 batch 2200/2283 running_loss=0.0072 running_acc=0.9978
+[2026-04-29 20:43:10] epoch 13: train_loss=0.0070 acc=0.9978 | val_loss=0.0711 val_acc=0.9844
+[2026-04-29 20:43:10]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:43:12] epoch 14/30 batch 100/2283 running_loss=0.0080 running_acc=0.9988
+[2026-04-29 20:43:15] epoch 14/30 batch 200/2283 running_loss=0.0071 running_acc=0.9984
+[2026-04-29 20:43:18] epoch 14/30 batch 300/2283 running_loss=0.0062 running_acc=0.9983
+[2026-04-29 20:43:20] epoch 14/30 batch 400/2283 running_loss=0.0059 running_acc=0.9983
+[2026-04-29 20:43:23] epoch 14/30 batch 500/2283 running_loss=0.0052 running_acc=0.9984
+[2026-04-29 20:43:25] epoch 14/30 batch 600/2283 running_loss=0.0071 running_acc=0.9979
+[2026-04-29 20:43:28] epoch 14/30 batch 700/2283 running_loss=0.0071 running_acc=0.9980
+[2026-04-29 20:43:30] epoch 14/30 batch 800/2283 running_loss=0.0069 running_acc=0.9980
+[2026-04-29 20:43:33] epoch 14/30 batch 900/2283 running_loss=0.0065 running_acc=0.9981
+[2026-04-29 20:43:36] epoch 14/30 batch 1000/2283 running_loss=0.0062 running_acc=0.9982
+[2026-04-29 20:43:38] epoch 14/30 batch 1100/2283 running_loss=0.0061 running_acc=0.9981
+[2026-04-29 20:43:41] epoch 14/30 batch 1200/2283 running_loss=0.0064 running_acc=0.9981
+[2026-04-29 20:43:43] epoch 14/30 batch 1300/2283 running_loss=0.0070 running_acc=0.9981
+[2026-04-29 20:43:46] epoch 14/30 batch 1400/2283 running_loss=0.0067 running_acc=0.9982
+[2026-04-29 20:43:48] epoch 14/30 batch 1500/2283 running_loss=0.0073 running_acc=0.9981
+[2026-04-29 20:43:51] epoch 14/30 batch 1600/2283 running_loss=0.0072 running_acc=0.9981
+[2026-04-29 20:43:54] epoch 14/30 batch 1700/2283 running_loss=0.0069 running_acc=0.9982
+[2026-04-29 20:44:00] epoch 14/30 batch 1800/2283 running_loss=0.0066 running_acc=0.9982
+[2026-04-29 20:44:08] epoch 14/30 batch 1900/2283 running_loss=0.0064 running_acc=0.9983
+[2026-04-29 20:44:18] epoch 14/30 batch 2000/2283 running_loss=0.0062 running_acc=0.9982
+[2026-04-29 20:44:28] epoch 14/30 batch 2100/2283 running_loss=0.0068 running_acc=0.9982
+[2026-04-29 20:44:38] epoch 14/30 batch 2200/2283 running_loss=0.0072 running_acc=0.9979
+[2026-04-29 20:47:03] epoch 14: train_loss=0.0070 acc=0.9980 | val_loss=0.0384 val_acc=0.9902
+[2026-04-29 20:47:03]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:47:03]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:47:12] epoch 15/30 batch 100/2283 running_loss=0.0019 running_acc=0.9994
+[2026-04-29 20:47:20] epoch 15/30 batch 200/2283 running_loss=0.0026 running_acc=0.9994
+[2026-04-29 20:47:28] epoch 15/30 batch 300/2283 running_loss=0.0078 running_acc=0.9981
+[2026-04-29 20:47:35] epoch 15/30 batch 400/2283 running_loss=0.0089 running_acc=0.9980
+[2026-04-29 20:47:42] epoch 15/30 batch 500/2283 running_loss=0.0085 running_acc=0.9980
+[2026-04-29 20:47:50] epoch 15/30 batch 600/2283 running_loss=0.0077 running_acc=0.9981
+[2026-04-29 20:47:57] epoch 15/30 batch 700/2283 running_loss=0.0068 running_acc=0.9984
+[2026-04-29 20:48:04] epoch 15/30 batch 800/2283 running_loss=0.0067 running_acc=0.9985
+[2026-04-29 20:48:13] epoch 15/30 batch 900/2283 running_loss=0.0062 running_acc=0.9987
+[2026-04-29 20:48:21] epoch 15/30 batch 1000/2283 running_loss=0.0057 running_acc=0.9988
+[2026-04-29 20:48:30] epoch 15/30 batch 1100/2283 running_loss=0.0052 running_acc=0.9989
+[2026-04-29 20:48:38] epoch 15/30 batch 1200/2283 running_loss=0.0049 running_acc=0.9990
+[2026-04-29 20:48:45] epoch 15/30 batch 1300/2283 running_loss=0.0051 running_acc=0.9989
+[2026-04-29 20:48:52] epoch 15/30 batch 1400/2283 running_loss=0.0052 running_acc=0.9989
+[2026-04-29 20:49:00] epoch 15/30 batch 1500/2283 running_loss=0.0053 running_acc=0.9988
+[2026-04-29 20:49:07] epoch 15/30 batch 1600/2283 running_loss=0.0051 running_acc=0.9989
+[2026-04-29 20:49:15] epoch 15/30 batch 1700/2283 running_loss=0.0048 running_acc=0.9990
+[2026-04-29 20:49:24] epoch 15/30 batch 1800/2283 running_loss=0.0049 running_acc=0.9988
+[2026-04-29 20:49:32] epoch 15/30 batch 1900/2283 running_loss=0.0052 running_acc=0.9987
+[2026-04-29 20:49:41] epoch 15/30 batch 2000/2283 running_loss=0.0052 running_acc=0.9987
+[2026-04-29 20:49:49] epoch 15/30 batch 2100/2283 running_loss=0.0050 running_acc=0.9987
+[2026-04-29 20:49:58] epoch 15/30 batch 2200/2283 running_loss=0.0050 running_acc=0.9987
+[2026-04-29 20:50:34] epoch 15: train_loss=0.0049 acc=0.9987 | val_loss=0.0557 val_acc=0.9866
+[2026-04-29 20:50:34]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:50:36] epoch 16/30 batch 100/2283 running_loss=0.0138 running_acc=0.9975
+[2026-04-29 20:50:39] epoch 16/30 batch 200/2283 running_loss=0.0110 running_acc=0.9972
+[2026-04-29 20:50:41] epoch 16/30 batch 300/2283 running_loss=0.0087 running_acc=0.9977
+[2026-04-29 20:50:44] epoch 16/30 batch 400/2283 running_loss=0.0070 running_acc=0.9981
+[2026-04-29 20:50:46] epoch 16/30 batch 500/2283 running_loss=0.0070 running_acc=0.9980
+[2026-04-29 20:50:49] epoch 16/30 batch 600/2283 running_loss=0.0068 running_acc=0.9979
+[2026-04-29 20:50:51] epoch 16/30 batch 700/2283 running_loss=0.0082 running_acc=0.9977
+[2026-04-29 20:50:54] epoch 16/30 batch 800/2283 running_loss=0.0075 running_acc=0.9979
+[2026-04-29 20:50:56] epoch 16/30 batch 900/2283 running_loss=0.0070 running_acc=0.9981
+[2026-04-29 20:50:59] epoch 16/30 batch 1000/2283 running_loss=0.0065 running_acc=0.9982
+[2026-04-29 20:51:02] epoch 16/30 batch 1100/2283 running_loss=0.0061 running_acc=0.9984
+[2026-04-29 20:51:04] epoch 16/30 batch 1200/2283 running_loss=0.0058 running_acc=0.9984
+[2026-04-29 20:51:07] epoch 16/30 batch 1300/2283 running_loss=0.0054 running_acc=0.9985
+[2026-04-29 20:51:09] epoch 16/30 batch 1400/2283 running_loss=0.0054 running_acc=0.9984
+[2026-04-29 20:51:12] epoch 16/30 batch 1500/2283 running_loss=0.0057 running_acc=0.9984
+[2026-04-29 20:51:14] epoch 16/30 batch 1600/2283 running_loss=0.0058 running_acc=0.9984
+[2026-04-29 20:51:17] epoch 16/30 batch 1700/2283 running_loss=0.0056 running_acc=0.9984
+[2026-04-29 20:51:19] epoch 16/30 batch 1800/2283 running_loss=0.0054 running_acc=0.9984
+[2026-04-29 20:51:22] epoch 16/30 batch 1900/2283 running_loss=0.0054 running_acc=0.9985
+[2026-04-29 20:51:25] epoch 16/30 batch 2000/2283 running_loss=0.0054 running_acc=0.9984
+[2026-04-29 20:51:27] epoch 16/30 batch 2100/2283 running_loss=0.0055 running_acc=0.9984
+[2026-04-29 20:51:30] epoch 16/30 batch 2200/2283 running_loss=0.0055 running_acc=0.9984
+[2026-04-29 20:52:02] epoch 16: train_loss=0.0054 acc=0.9984 | val_loss=0.0407 val_acc=0.9900
+[2026-04-29 20:52:02]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:52:04] epoch 17/30 batch 100/2283 running_loss=0.0067 running_acc=0.9981
+[2026-04-29 20:52:07] epoch 17/30 batch 200/2283 running_loss=0.0046 running_acc=0.9988
+[2026-04-29 20:52:10] epoch 17/30 batch 300/2283 running_loss=0.0044 running_acc=0.9988
+[2026-04-29 20:52:12] epoch 17/30 batch 400/2283 running_loss=0.0037 running_acc=0.9989
+[2026-04-29 20:52:15] epoch 17/30 batch 500/2283 running_loss=0.0033 running_acc=0.9991
+[2026-04-29 20:52:17] epoch 17/30 batch 600/2283 running_loss=0.0032 running_acc=0.9991
+[2026-04-29 20:52:20] epoch 17/30 batch 700/2283 running_loss=0.0032 running_acc=0.9990
+[2026-04-29 20:52:23] epoch 17/30 batch 800/2283 running_loss=0.0041 running_acc=0.9988
+[2026-04-29 20:52:25] epoch 17/30 batch 900/2283 running_loss=0.0045 running_acc=0.9987
+[2026-04-29 20:52:28] epoch 17/30 batch 1000/2283 running_loss=0.0046 running_acc=0.9986
+[2026-04-29 20:52:31] epoch 17/30 batch 1100/2283 running_loss=0.0048 running_acc=0.9985
+[2026-04-29 20:52:36] epoch 17/30 batch 1200/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 20:52:43] epoch 17/30 batch 1300/2283 running_loss=0.0045 running_acc=0.9985
+[2026-04-29 20:52:53] epoch 17/30 batch 1400/2283 running_loss=0.0045 running_acc=0.9985
+[2026-04-29 20:53:02] epoch 17/30 batch 1500/2283 running_loss=0.0042 running_acc=0.9986
+[2026-04-29 20:53:12] epoch 17/30 batch 1600/2283 running_loss=0.0041 running_acc=0.9986
+[2026-04-29 20:53:22] epoch 17/30 batch 1700/2283 running_loss=0.0039 running_acc=0.9987
+[2026-04-29 20:53:31] epoch 17/30 batch 1800/2283 running_loss=0.0037 running_acc=0.9988
+[2026-04-29 20:53:41] epoch 17/30 batch 1900/2283 running_loss=0.0038 running_acc=0.9988
+[2026-04-29 20:53:50] epoch 17/30 batch 2000/2283 running_loss=0.0037 running_acc=0.9988
+[2026-04-29 20:54:00] epoch 17/30 batch 2100/2283 running_loss=0.0039 running_acc=0.9988
+[2026-04-29 20:54:09] epoch 17/30 batch 2200/2283 running_loss=0.0038 running_acc=0.9988
+[2026-04-29 20:56:57] epoch 17: train_loss=0.0037 acc=0.9988 | val_loss=0.0368 val_acc=0.9912
+[2026-04-29 20:56:57]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 20:56:57]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 20:57:08] epoch 18/30 batch 100/2283 running_loss=0.0068 running_acc=0.9981
+[2026-04-29 20:57:18] epoch 18/30 batch 200/2283 running_loss=0.0044 running_acc=0.9988
+[2026-04-29 20:57:28] epoch 18/30 batch 300/2283 running_loss=0.0031 running_acc=0.9992
+[2026-04-29 20:57:37] epoch 18/30 batch 400/2283 running_loss=0.0033 running_acc=0.9992
+[2026-04-29 20:57:47] epoch 18/30 batch 500/2283 running_loss=0.0027 running_acc=0.9994
+[2026-04-29 20:57:56] epoch 18/30 batch 600/2283 running_loss=0.0025 running_acc=0.9994
+[2026-04-29 20:58:06] epoch 18/30 batch 700/2283 running_loss=0.0034 running_acc=0.9991
+[2026-04-29 20:58:15] epoch 18/30 batch 800/2283 running_loss=0.0039 running_acc=0.9988
+[2026-04-29 20:58:25] epoch 18/30 batch 900/2283 running_loss=0.0037 running_acc=0.9988
+[2026-04-29 20:58:34] epoch 18/30 batch 1000/2283 running_loss=0.0036 running_acc=0.9989
+[2026-04-29 20:58:43] epoch 18/30 batch 1100/2283 running_loss=0.0039 running_acc=0.9988
+[2026-04-29 20:58:53] epoch 18/30 batch 1200/2283 running_loss=0.0042 running_acc=0.9987
+[2026-04-29 20:59:03] epoch 18/30 batch 1300/2283 running_loss=0.0045 running_acc=0.9987
+[2026-04-29 20:59:12] epoch 18/30 batch 1400/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 20:59:22] epoch 18/30 batch 1500/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 20:59:32] epoch 18/30 batch 1600/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 20:59:41] epoch 18/30 batch 1700/2283 running_loss=0.0043 running_acc=0.9987
+[2026-04-29 20:59:51] epoch 18/30 batch 1800/2283 running_loss=0.0041 running_acc=0.9988
+[2026-04-29 21:00:01] epoch 18/30 batch 1900/2283 running_loss=0.0043 running_acc=0.9987
+[2026-04-29 21:00:10] epoch 18/30 batch 2000/2283 running_loss=0.0042 running_acc=0.9987
+[2026-04-29 21:00:20] epoch 18/30 batch 2100/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 21:00:30] epoch 18/30 batch 2200/2283 running_loss=0.0045 running_acc=0.9986
+[2026-04-29 21:03:22] epoch 18: train_loss=0.0046 acc=0.9986 | val_loss=0.1295 val_acc=0.9752
+[2026-04-29 21:03:22]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:03:33] epoch 19/30 batch 100/2283 running_loss=0.0014 running_acc=1.0000
+[2026-04-29 21:03:44] epoch 19/30 batch 200/2283 running_loss=0.0037 running_acc=0.9994
+[2026-04-29 21:03:54] epoch 19/30 batch 300/2283 running_loss=0.0030 running_acc=0.9994
+[2026-04-29 21:04:04] epoch 19/30 batch 400/2283 running_loss=0.0028 running_acc=0.9994
+[2026-04-29 21:04:13] epoch 19/30 batch 500/2283 running_loss=0.0041 running_acc=0.9991
+[2026-04-29 21:04:23] epoch 19/30 batch 600/2283 running_loss=0.0042 running_acc=0.9990
+[2026-04-29 21:04:34] epoch 19/30 batch 700/2283 running_loss=0.0038 running_acc=0.9990
+[2026-04-29 21:04:44] epoch 19/30 batch 800/2283 running_loss=0.0054 running_acc=0.9988
+[2026-04-29 21:04:54] epoch 19/30 batch 900/2283 running_loss=0.0049 running_acc=0.9989
+[2026-04-29 21:05:04] epoch 19/30 batch 1000/2283 running_loss=0.0046 running_acc=0.9989
+[2026-04-29 21:05:13] epoch 19/30 batch 1100/2283 running_loss=0.0045 running_acc=0.9990
+[2026-04-29 21:05:23] epoch 19/30 batch 1200/2283 running_loss=0.0043 running_acc=0.9990
+[2026-04-29 21:05:34] epoch 19/30 batch 1300/2283 running_loss=0.0041 running_acc=0.9991
+[2026-04-29 21:05:44] epoch 19/30 batch 1400/2283 running_loss=0.0039 running_acc=0.9992
+[2026-04-29 21:05:54] epoch 19/30 batch 1500/2283 running_loss=0.0037 running_acc=0.9992
+[2026-04-29 21:06:04] epoch 19/30 batch 1600/2283 running_loss=0.0040 running_acc=0.9991
+[2026-04-29 21:06:14] epoch 19/30 batch 1700/2283 running_loss=0.0038 running_acc=0.9992
+[2026-04-29 21:06:24] epoch 19/30 batch 1800/2283 running_loss=0.0038 running_acc=0.9991
+[2026-04-29 21:06:34] epoch 19/30 batch 1900/2283 running_loss=0.0037 running_acc=0.9992
+[2026-04-29 21:06:45] epoch 19/30 batch 2000/2283 running_loss=0.0035 running_acc=0.9992
+[2026-04-29 21:06:55] epoch 19/30 batch 2100/2283 running_loss=0.0034 running_acc=0.9992
+[2026-04-29 21:07:05] epoch 19/30 batch 2200/2283 running_loss=0.0034 running_acc=0.9992
+[2026-04-29 21:10:06] epoch 19: train_loss=0.0034 acc=0.9992 | val_loss=0.0736 val_acc=0.9841
+[2026-04-29 21:10:06]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:10:16] epoch 20/30 batch 100/2283 running_loss=0.0012 running_acc=1.0000
+[2026-04-29 21:10:26] epoch 20/30 batch 200/2283 running_loss=0.0014 running_acc=1.0000
+[2026-04-29 21:10:36] epoch 20/30 batch 300/2283 running_loss=0.0014 running_acc=0.9998
+[2026-04-29 21:10:45] epoch 20/30 batch 400/2283 running_loss=0.0013 running_acc=0.9998
+[2026-04-29 21:10:55] epoch 20/30 batch 500/2283 running_loss=0.0012 running_acc=0.9999
+[2026-04-29 21:11:05] epoch 20/30 batch 600/2283 running_loss=0.0010 running_acc=0.9999
+[2026-04-29 21:11:15] epoch 20/30 batch 700/2283 running_loss=0.0015 running_acc=0.9998
+[2026-04-29 21:11:25] epoch 20/30 batch 800/2283 running_loss=0.0014 running_acc=0.9998
+[2026-04-29 21:11:35] epoch 20/30 batch 900/2283 running_loss=0.0013 running_acc=0.9999
+[2026-04-29 21:11:45] epoch 20/30 batch 1000/2283 running_loss=0.0016 running_acc=0.9998
+[2026-04-29 21:11:55] epoch 20/30 batch 1100/2283 running_loss=0.0017 running_acc=0.9997
+[2026-04-29 21:12:05] epoch 20/30 batch 1200/2283 running_loss=0.0018 running_acc=0.9996
+[2026-04-29 21:12:15] epoch 20/30 batch 1300/2283 running_loss=0.0017 running_acc=0.9997
+[2026-04-29 21:12:25] epoch 20/30 batch 1400/2283 running_loss=0.0016 running_acc=0.9997
+[2026-04-29 21:12:35] epoch 20/30 batch 1500/2283 running_loss=0.0017 running_acc=0.9996
+[2026-04-29 21:12:45] epoch 20/30 batch 1600/2283 running_loss=0.0018 running_acc=0.9996
+[2026-04-29 21:12:55] epoch 20/30 batch 1700/2283 running_loss=0.0024 running_acc=0.9995
+[2026-04-29 21:13:05] epoch 20/30 batch 1800/2283 running_loss=0.0034 running_acc=0.9993
+[2026-04-29 21:13:15] epoch 20/30 batch 1900/2283 running_loss=0.0034 running_acc=0.9993
+[2026-04-29 21:13:25] epoch 20/30 batch 2000/2283 running_loss=0.0034 running_acc=0.9992
+[2026-04-29 21:13:35] epoch 20/30 batch 2100/2283 running_loss=0.0033 running_acc=0.9993
+[2026-04-29 21:13:45] epoch 20/30 batch 2200/2283 running_loss=0.0032 running_acc=0.9993
+[2026-04-29 21:16:42] epoch 20: train_loss=0.0032 acc=0.9993 | val_loss=0.0406 val_acc=0.9909
+[2026-04-29 21:16:42]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:16:52] epoch 21/30 batch 100/2283 running_loss=0.0050 running_acc=0.9981
+[2026-04-29 21:17:02] epoch 21/30 batch 200/2283 running_loss=0.0033 running_acc=0.9988
+[2026-04-29 21:17:12] epoch 21/30 batch 300/2283 running_loss=0.0030 running_acc=0.9990
+[2026-04-29 21:17:21] epoch 21/30 batch 400/2283 running_loss=0.0025 running_acc=0.9991
+[2026-04-29 21:17:31] epoch 21/30 batch 500/2283 running_loss=0.0021 running_acc=0.9992
+[2026-04-29 21:17:41] epoch 21/30 batch 600/2283 running_loss=0.0019 running_acc=0.9993
+[2026-04-29 21:17:51] epoch 21/30 batch 700/2283 running_loss=0.0017 running_acc=0.9994
+[2026-04-29 21:18:00] epoch 21/30 batch 800/2283 running_loss=0.0015 running_acc=0.9995
+[2026-04-29 21:18:10] epoch 21/30 batch 900/2283 running_loss=0.0014 running_acc=0.9995
+[2026-04-29 21:18:20] epoch 21/30 batch 1000/2283 running_loss=0.0013 running_acc=0.9996
+[2026-04-29 21:18:30] epoch 21/30 batch 1100/2283 running_loss=0.0013 running_acc=0.9995
+[2026-04-29 21:18:40] epoch 21/30 batch 1200/2283 running_loss=0.0015 running_acc=0.9995
+[2026-04-29 21:18:49] epoch 21/30 batch 1300/2283 running_loss=0.0014 running_acc=0.9996
+[2026-04-29 21:18:59] epoch 21/30 batch 1400/2283 running_loss=0.0013 running_acc=0.9996
+[2026-04-29 21:19:09] epoch 21/30 batch 1500/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:19:19] epoch 21/30 batch 1600/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:19:29] epoch 21/30 batch 1700/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:19:39] epoch 21/30 batch 1800/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:19:49] epoch 21/30 batch 1900/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:19:59] epoch 21/30 batch 2000/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:20:09] epoch 21/30 batch 2100/2283 running_loss=0.0011 running_acc=0.9997
+[2026-04-29 21:20:19] epoch 21/30 batch 2200/2283 running_loss=0.0011 running_acc=0.9997
+[2026-04-29 21:23:17] epoch 21: train_loss=0.0010 acc=0.9997 | val_loss=0.0605 val_acc=0.9884
+[2026-04-29 21:23:17]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:23:27] epoch 22/30 batch 100/2283 running_loss=0.0001 running_acc=1.0000
+[2026-04-29 21:23:37] epoch 22/30 batch 200/2283 running_loss=0.0002 running_acc=1.0000
+[2026-04-29 21:23:47] epoch 22/30 batch 300/2283 running_loss=0.0006 running_acc=0.9998
+[2026-04-29 21:23:57] epoch 22/30 batch 400/2283 running_loss=0.0012 running_acc=0.9995
+[2026-04-29 21:24:07] epoch 22/30 batch 500/2283 running_loss=0.0024 running_acc=0.9994
+[2026-04-29 21:24:17] epoch 22/30 batch 600/2283 running_loss=0.0022 running_acc=0.9994
+[2026-04-29 21:24:27] epoch 22/30 batch 700/2283 running_loss=0.0019 running_acc=0.9995
+[2026-04-29 21:24:37] epoch 22/30 batch 800/2283 running_loss=0.0018 running_acc=0.9995
+[2026-04-29 21:24:47] epoch 22/30 batch 900/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:24:57] epoch 22/30 batch 1000/2283 running_loss=0.0017 running_acc=0.9996
+[2026-04-29 21:25:07] epoch 22/30 batch 1100/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:25:17] epoch 22/30 batch 1200/2283 running_loss=0.0014 running_acc=0.9996
+[2026-04-29 21:25:27] epoch 22/30 batch 1300/2283 running_loss=0.0015 running_acc=0.9996
+[2026-04-29 21:25:37] epoch 22/30 batch 1400/2283 running_loss=0.0017 running_acc=0.9996
+[2026-04-29 21:25:47] epoch 22/30 batch 1500/2283 running_loss=0.0017 running_acc=0.9995
+[2026-04-29 21:25:57] epoch 22/30 batch 1600/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:26:07] epoch 22/30 batch 1700/2283 running_loss=0.0015 running_acc=0.9996
+[2026-04-29 21:26:17] epoch 22/30 batch 1800/2283 running_loss=0.0017 running_acc=0.9995
+[2026-04-29 21:26:27] epoch 22/30 batch 1900/2283 running_loss=0.0020 running_acc=0.9994
+[2026-04-29 21:26:37] epoch 22/30 batch 2000/2283 running_loss=0.0025 running_acc=0.9993
+[2026-04-29 21:26:47] epoch 22/30 batch 2100/2283 running_loss=0.0026 running_acc=0.9993
+[2026-04-29 21:26:57] epoch 22/30 batch 2200/2283 running_loss=0.0026 running_acc=0.9993
+[2026-04-29 21:30:00] epoch 22: train_loss=0.0027 acc=0.9992 | val_loss=0.0472 val_acc=0.9901
+[2026-04-29 21:30:00]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:30:10] epoch 23/30 batch 100/2283 running_loss=0.0007 running_acc=1.0000
+[2026-04-29 21:30:20] epoch 23/30 batch 200/2283 running_loss=0.0029 running_acc=0.9994
+[2026-04-29 21:30:30] epoch 23/30 batch 300/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:30:40] epoch 23/30 batch 400/2283 running_loss=0.0019 running_acc=0.9995
+[2026-04-29 21:30:50] epoch 23/30 batch 500/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:31:00] epoch 23/30 batch 600/2283 running_loss=0.0015 running_acc=0.9996
+[2026-04-29 21:31:10] epoch 23/30 batch 700/2283 running_loss=0.0015 running_acc=0.9996
+[2026-04-29 21:31:20] epoch 23/30 batch 800/2283 running_loss=0.0021 running_acc=0.9995
+[2026-04-29 21:31:30] epoch 23/30 batch 900/2283 running_loss=0.0019 running_acc=0.9996
+[2026-04-29 21:31:40] epoch 23/30 batch 1000/2283 running_loss=0.0017 running_acc=0.9996
+[2026-04-29 21:31:50] epoch 23/30 batch 1100/2283 running_loss=0.0016 running_acc=0.9997
+[2026-04-29 21:32:00] epoch 23/30 batch 1200/2283 running_loss=0.0015 running_acc=0.9997
+[2026-04-29 21:32:10] epoch 23/30 batch 1300/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:32:21] epoch 23/30 batch 1400/2283 running_loss=0.0014 running_acc=0.9996
+[2026-04-29 21:32:30] epoch 23/30 batch 1500/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:32:41] epoch 23/30 batch 1600/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:32:51] epoch 23/30 batch 1700/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:33:00] epoch 23/30 batch 1800/2283 running_loss=0.0020 running_acc=0.9995
+[2026-04-29 21:33:11] epoch 23/30 batch 1900/2283 running_loss=0.0019 running_acc=0.9996
+[2026-04-29 21:33:21] epoch 23/30 batch 2000/2283 running_loss=0.0018 running_acc=0.9996
+[2026-04-29 21:33:31] epoch 23/30 batch 2100/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:33:41] epoch 23/30 batch 2200/2283 running_loss=0.0019 running_acc=0.9996
+[2026-04-29 21:36:41] epoch 23: train_loss=0.0019 acc=0.9996 | val_loss=0.0562 val_acc=0.9872
+[2026-04-29 21:36:41]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:36:51] epoch 24/30 batch 100/2283 running_loss=0.0002 running_acc=1.0000
+[2026-04-29 21:37:01] epoch 24/30 batch 200/2283 running_loss=0.0018 running_acc=0.9997
+[2026-04-29 21:37:11] epoch 24/30 batch 300/2283 running_loss=0.0028 running_acc=0.9994
+[2026-04-29 21:37:21] epoch 24/30 batch 400/2283 running_loss=0.0022 running_acc=0.9995
+[2026-04-29 21:37:31] epoch 24/30 batch 500/2283 running_loss=0.0019 running_acc=0.9995
+[2026-04-29 21:37:41] epoch 24/30 batch 600/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:37:51] epoch 24/30 batch 700/2283 running_loss=0.0027 running_acc=0.9995
+[2026-04-29 21:38:01] epoch 24/30 batch 800/2283 running_loss=0.0025 running_acc=0.9995
+[2026-04-29 21:38:11] epoch 24/30 batch 900/2283 running_loss=0.0022 running_acc=0.9996
+[2026-04-29 21:38:21] epoch 24/30 batch 1000/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:38:31] epoch 24/30 batch 1100/2283 running_loss=0.0020 running_acc=0.9996
+[2026-04-29 21:38:41] epoch 24/30 batch 1200/2283 running_loss=0.0018 running_acc=0.9996
+[2026-04-29 21:38:52] epoch 24/30 batch 1300/2283 running_loss=0.0019 running_acc=0.9996
+[2026-04-29 21:39:02] epoch 24/30 batch 1400/2283 running_loss=0.0018 running_acc=0.9996
+[2026-04-29 21:39:12] epoch 24/30 batch 1500/2283 running_loss=0.0017 running_acc=0.9996
+[2026-04-29 21:39:22] epoch 24/30 batch 1600/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:39:32] epoch 24/30 batch 1700/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:39:42] epoch 24/30 batch 1800/2283 running_loss=0.0015 running_acc=0.9997
+[2026-04-29 21:39:52] epoch 24/30 batch 1900/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:40:02] epoch 24/30 batch 2000/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:40:12] epoch 24/30 batch 2100/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:40:22] epoch 24/30 batch 2200/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:43:21] epoch 24: train_loss=0.0014 acc=0.9997 | val_loss=0.0501 val_acc=0.9897
+[2026-04-29 21:43:21]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:43:32] epoch 25/30 batch 100/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 21:43:42] epoch 25/30 batch 200/2283 running_loss=0.0010 running_acc=0.9997
+[2026-04-29 21:43:52] epoch 25/30 batch 300/2283 running_loss=0.0009 running_acc=0.9996
+[2026-04-29 21:44:02] epoch 25/30 batch 400/2283 running_loss=0.0008 running_acc=0.9997
+[2026-04-29 21:44:11] epoch 25/30 batch 500/2283 running_loss=0.0014 running_acc=0.9996
+[2026-04-29 21:44:21] epoch 25/30 batch 600/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:44:31] epoch 25/30 batch 700/2283 running_loss=0.0011 running_acc=0.9997
+[2026-04-29 21:44:41] epoch 25/30 batch 800/2283 running_loss=0.0015 running_acc=0.9997
+[2026-04-29 21:44:51] epoch 25/30 batch 900/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:45:01] epoch 25/30 batch 1000/2283 running_loss=0.0016 running_acc=0.9997
+[2026-04-29 21:45:11] epoch 25/30 batch 1100/2283 running_loss=0.0016 running_acc=0.9996
+[2026-04-29 21:45:21] epoch 25/30 batch 1200/2283 running_loss=0.0015 running_acc=0.9996
+[2026-04-29 21:45:31] epoch 25/30 batch 1300/2283 running_loss=0.0014 running_acc=0.9997
+[2026-04-29 21:45:41] epoch 25/30 batch 1400/2283 running_loss=0.0014 running_acc=0.9996
+[2026-04-29 21:45:51] epoch 25/30 batch 1500/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:46:01] epoch 25/30 batch 1600/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:46:11] epoch 25/30 batch 1700/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:46:21] epoch 25/30 batch 1800/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:46:31] epoch 25/30 batch 1900/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:46:41] epoch 25/30 batch 2000/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:46:51] epoch 25/30 batch 2100/2283 running_loss=0.0012 running_acc=0.9997
+[2026-04-29 21:47:01] epoch 25/30 batch 2200/2283 running_loss=0.0013 running_acc=0.9997
+[2026-04-29 21:50:00] epoch 25: train_loss=0.0013 acc=0.9997 | val_loss=0.0393 val_acc=0.9914
+[2026-04-29 21:50:00]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:50:00]   saved best -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_best.pt
+[2026-04-29 21:50:10] epoch 26/30 batch 100/2283 running_loss=0.0002 running_acc=1.0000
+[2026-04-29 21:50:20] epoch 26/30 batch 200/2283 running_loss=0.0011 running_acc=0.9997
+[2026-04-29 21:50:30] epoch 26/30 batch 300/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 21:50:40] epoch 26/30 batch 400/2283 running_loss=0.0021 running_acc=0.9997
+[2026-04-29 21:50:49] epoch 26/30 batch 500/2283 running_loss=0.0018 running_acc=0.9998
+[2026-04-29 21:50:59] epoch 26/30 batch 600/2283 running_loss=0.0023 running_acc=0.9997
+[2026-04-29 21:51:09] epoch 26/30 batch 700/2283 running_loss=0.0021 running_acc=0.9996
+[2026-04-29 21:51:19] epoch 26/30 batch 800/2283 running_loss=0.0019 running_acc=0.9997
+[2026-04-29 21:51:29] epoch 26/30 batch 900/2283 running_loss=0.0017 running_acc=0.9997
+[2026-04-29 21:51:39] epoch 26/30 batch 1000/2283 running_loss=0.0016 running_acc=0.9998
+[2026-04-29 21:51:49] epoch 26/30 batch 1100/2283 running_loss=0.0016 running_acc=0.9997
+[2026-04-29 21:51:59] epoch 26/30 batch 1200/2283 running_loss=0.0015 running_acc=0.9997
+[2026-04-29 21:52:09] epoch 26/30 batch 1300/2283 running_loss=0.0014 running_acc=0.9998
+[2026-04-29 21:52:19] epoch 26/30 batch 1400/2283 running_loss=0.0013 running_acc=0.9998
+[2026-04-29 21:52:29] epoch 26/30 batch 1500/2283 running_loss=0.0013 running_acc=0.9998
+[2026-04-29 21:52:39] epoch 26/30 batch 1600/2283 running_loss=0.0012 running_acc=0.9998
+[2026-04-29 21:52:49] epoch 26/30 batch 1700/2283 running_loss=0.0012 running_acc=0.9998
+[2026-04-29 21:52:59] epoch 26/30 batch 1800/2283 running_loss=0.0011 running_acc=0.9998
+[2026-04-29 21:53:09] epoch 26/30 batch 1900/2283 running_loss=0.0011 running_acc=0.9998
+[2026-04-29 21:53:19] epoch 26/30 batch 2000/2283 running_loss=0.0010 running_acc=0.9998
+[2026-04-29 21:53:29] epoch 26/30 batch 2100/2283 running_loss=0.0010 running_acc=0.9999
+[2026-04-29 21:53:39] epoch 26/30 batch 2200/2283 running_loss=0.0010 running_acc=0.9999
+[2026-04-29 21:56:39] epoch 26: train_loss=0.0009 acc=0.9999 | val_loss=0.0607 val_acc=0.9876
+[2026-04-29 21:56:39]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 21:56:50] epoch 27/30 batch 100/2283 running_loss=0.0001 running_acc=1.0000
+[2026-04-29 21:57:02] epoch 27/30 batch 200/2283 running_loss=0.0011 running_acc=0.9994
+[2026-04-29 21:57:13] epoch 27/30 batch 300/2283 running_loss=0.0013 running_acc=0.9994
+[2026-04-29 21:57:25] epoch 27/30 batch 400/2283 running_loss=0.0013 running_acc=0.9994
+[2026-04-29 21:57:36] epoch 27/30 batch 500/2283 running_loss=0.0019 running_acc=0.9994
+[2026-04-29 21:57:48] epoch 27/30 batch 600/2283 running_loss=0.0016 running_acc=0.9995
+[2026-04-29 21:57:59] epoch 27/30 batch 700/2283 running_loss=0.0016 running_acc=0.9995
+[2026-04-29 21:58:11] epoch 27/30 batch 800/2283 running_loss=0.0014 running_acc=0.9995
+[2026-04-29 21:58:22] epoch 27/30 batch 900/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:58:33] epoch 27/30 batch 1000/2283 running_loss=0.0012 running_acc=0.9996
+[2026-04-29 21:58:45] epoch 27/30 batch 1100/2283 running_loss=0.0011 running_acc=0.9997
+[2026-04-29 21:58:56] epoch 27/30 batch 1200/2283 running_loss=0.0011 running_acc=0.9996
+[2026-04-29 21:59:07] epoch 27/30 batch 1300/2283 running_loss=0.0010 running_acc=0.9996
+[2026-04-29 21:59:17] epoch 27/30 batch 1400/2283 running_loss=0.0010 running_acc=0.9996
+[2026-04-29 21:59:29] epoch 27/30 batch 1500/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 21:59:41] epoch 27/30 batch 1600/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 21:59:51] epoch 27/30 batch 1700/2283 running_loss=0.0010 running_acc=0.9997
+[2026-04-29 22:00:02] epoch 27/30 batch 1800/2283 running_loss=0.0010 running_acc=0.9997
+[2026-04-29 22:00:13] epoch 27/30 batch 1900/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 22:00:24] epoch 27/30 batch 2000/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 22:00:34] epoch 27/30 batch 2100/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 22:00:46] epoch 27/30 batch 2200/2283 running_loss=0.0009 running_acc=0.9997
+[2026-04-29 22:03:38] epoch 27: train_loss=0.0013 acc=0.9997 | val_loss=0.0659 val_acc=0.9874
+[2026-04-29 22:03:38]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 22:03:50] epoch 28/30 batch 100/2283 running_loss=0.0031 running_acc=0.9994
+[2026-04-29 22:04:01] epoch 28/30 batch 200/2283 running_loss=0.0018 running_acc=0.9997
+[2026-04-29 22:04:13] epoch 28/30 batch 300/2283 running_loss=0.0014 running_acc=0.9998
+[2026-04-29 22:04:24] epoch 28/30 batch 400/2283 running_loss=0.0012 running_acc=0.9998
+[2026-04-29 22:04:35] epoch 28/30 batch 500/2283 running_loss=0.0011 running_acc=0.9998
+[2026-04-29 22:04:47] epoch 28/30 batch 600/2283 running_loss=0.0010 running_acc=0.9998
+[2026-04-29 22:04:58] epoch 28/30 batch 700/2283 running_loss=0.0009 running_acc=0.9998
+[2026-04-29 22:05:08] epoch 28/30 batch 800/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:05:19] epoch 28/30 batch 900/2283 running_loss=0.0008 running_acc=0.9999
+[2026-04-29 22:05:30] epoch 28/30 batch 1000/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:05:40] epoch 28/30 batch 1100/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:05:52] epoch 28/30 batch 1200/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:06:02] epoch 28/30 batch 1300/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:06:12] epoch 28/30 batch 1400/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:06:22] epoch 28/30 batch 1500/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:06:32] epoch 28/30 batch 1600/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:06:42] epoch 28/30 batch 1700/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:06:52] epoch 28/30 batch 1800/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:07:02] epoch 28/30 batch 1900/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:07:12] epoch 28/30 batch 2000/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:07:23] epoch 28/30 batch 2100/2283 running_loss=0.0008 running_acc=0.9997
+[2026-04-29 22:07:33] epoch 28/30 batch 2200/2283 running_loss=0.0007 running_acc=0.9997
+[2026-04-29 22:10:23] epoch 28: train_loss=0.0007 acc=0.9998 | val_loss=0.0529 val_acc=0.9888
+[2026-04-29 22:10:23]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 22:10:35] epoch 29/30 batch 100/2283 running_loss=0.0009 running_acc=1.0000
+[2026-04-29 22:10:45] epoch 29/30 batch 200/2283 running_loss=0.0005 running_acc=1.0000
+[2026-04-29 22:10:55] epoch 29/30 batch 300/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:11:05] epoch 29/30 batch 400/2283 running_loss=0.0005 running_acc=1.0000
+[2026-04-29 22:11:14] epoch 29/30 batch 500/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:11:25] epoch 29/30 batch 600/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:11:35] epoch 29/30 batch 700/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:11:45] epoch 29/30 batch 800/2283 running_loss=0.0005 running_acc=0.9999
+[2026-04-29 22:11:55] epoch 29/30 batch 900/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:12:05] epoch 29/30 batch 1000/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:12:15] epoch 29/30 batch 1100/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:12:26] epoch 29/30 batch 1200/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:12:36] epoch 29/30 batch 1300/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:12:47] epoch 29/30 batch 1400/2283 running_loss=0.0003 running_acc=1.0000
+[2026-04-29 22:12:57] epoch 29/30 batch 1500/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:13:08] epoch 29/30 batch 1600/2283 running_loss=0.0004 running_acc=1.0000
+[2026-04-29 22:13:18] epoch 29/30 batch 1700/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:13:28] epoch 29/30 batch 1800/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:13:38] epoch 29/30 batch 1900/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:13:49] epoch 29/30 batch 2000/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:14:00] epoch 29/30 batch 2100/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:14:09] epoch 29/30 batch 2200/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:16:52] epoch 29: train_loss=0.0004 acc=0.9999 | val_loss=0.0500 val_acc=0.9892
+[2026-04-29 22:16:52]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 22:17:02] epoch 30/30 batch 100/2283 running_loss=0.0001 running_acc=1.0000
+[2026-04-29 22:17:13] epoch 30/30 batch 200/2283 running_loss=0.0002 running_acc=1.0000
+[2026-04-29 22:17:22] epoch 30/30 batch 300/2283 running_loss=0.0003 running_acc=1.0000
+[2026-04-29 22:17:32] epoch 30/30 batch 400/2283 running_loss=0.0003 running_acc=1.0000
+[2026-04-29 22:17:42] epoch 30/30 batch 500/2283 running_loss=0.0005 running_acc=0.9999
+[2026-04-29 22:17:52] epoch 30/30 batch 600/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:18:02] epoch 30/30 batch 700/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:18:11] epoch 30/30 batch 800/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:18:22] epoch 30/30 batch 900/2283 running_loss=0.0004 running_acc=0.9999
+[2026-04-29 22:18:32] epoch 30/30 batch 1000/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:18:42] epoch 30/30 batch 1100/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:18:51] epoch 30/30 batch 1200/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:19:01] epoch 30/30 batch 1300/2283 running_loss=0.0008 running_acc=0.9998
+[2026-04-29 22:19:11] epoch 30/30 batch 1400/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:19:21] epoch 30/30 batch 1500/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:19:31] epoch 30/30 batch 1600/2283 running_loss=0.0007 running_acc=0.9998
+[2026-04-29 22:19:41] epoch 30/30 batch 1700/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:19:51] epoch 30/30 batch 1800/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:20:01] epoch 30/30 batch 1900/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:20:11] epoch 30/30 batch 2000/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:20:21] epoch 30/30 batch 2100/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:20:32] epoch 30/30 batch 2200/2283 running_loss=0.0006 running_acc=0.9999
+[2026-04-29 22:23:20] epoch 30: train_loss=0.0006 acc=0.9999 | val_loss=0.0540 val_acc=0.9894
+[2026-04-29 22:23:20]   saved last -> C:\Users\mie\Downloads\AIVOICE\checkpoints\lcnn_asvspoof2019_ljspeech_last.pt
+[2026-04-29 22:23:20] done. best val acc=0.9914

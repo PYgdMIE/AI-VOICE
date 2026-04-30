@@ -1,0 +1,21 @@
+# CPU PyTorch: conda env create -f environment.yml
+# GPU: use environment_gpu.yml
+name: aivoice-lcnn
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - librosa
+  - scipy
+  - tqdm
+  - ffmpeg
+  - pip:
+    - tensorboard
+    - soundfile

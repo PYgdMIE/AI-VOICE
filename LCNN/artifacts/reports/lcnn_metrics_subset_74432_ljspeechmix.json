@@ -1,0 +1,24 @@
+{
+  "subset_rows_requested": 74432,
+  "subset_rows_with_label": 74432,
+  "missing_files": 0,
+  "missing_labels": 0,
+  "accuracy_threshold_0.5": 0.8498360920034393,
+  "accuracy_at_eer_threshold": 0.8280443895098882,
+  "eer": 0.17193934436495256,
+  "eer_threshold_on_p_spoof": 0.9225027561187744,
+  "confusion_at_threshold_0.5": {
+    "tp": 57435,
+    "tn": 5820,
+    "fp": 1637,
+    "fn": 9540
+  },
+  "fpr_at_threshold_0.5": 0.21952527826203566,
+  "fnr_at_threshold_0.5": 0.14244120940649496,
+  "sources": {
+    "subset_csv": "C:\\Users\\mie\\Downloads\\AIVOICE_datasets_baseline\\asvspoof2021_eval_whisper_merged.csv",
+    "keys_zip": "C:\\Users\\mie\\Downloads\\AIVOICE_datasets_baseline\\LA-keys-stage-1.zip",
+    "eval_root": "C:\\Users\\mie\\Downloads\\AIVOICE\\ASVspoof2021_LA_eval",
+    "ckpt": "C:\\Users\\mie\\Downloads\\AIVOICE\\checkpoints\\lcnn_asvspoof2019_ljspeech_best.pt"
+  }
+}

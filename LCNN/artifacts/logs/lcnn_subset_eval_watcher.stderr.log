@@ -1,0 +1,7 @@
+conda.exe : 
+At C:\Users\mie\Downloads\AIVOICE\scripts\run_lcnn_subset_eval_after_training.ps1:23 char:1
++ & $CondaExe run -n aivoice-lcnn python scripts\test_lcnn_2021_subset_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
