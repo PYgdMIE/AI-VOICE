@@ -1,0 +1,12 @@
+ASVspoof 2021 Evaluation Results
+==================================================
+
+Bonafide samples: 6712
+Spoof samples: 54729
+Total samples: 61441
+
+EER: 26.638%
+EER threshold: 0.355938
+
+Bonafide score (mean ± std): 1.4339 ± 2.3486
+Spoof score (mean ± std): -3.4626 ± 3.5341
