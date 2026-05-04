@@ -56,13 +56,13 @@ All baselines are evaluated on the **same** ASVspoof 2021 LA Whisper-merged subs
 - **Primary metric:** EER, where lower is better  
   - ROC AUC and accuracy are reported as secondary metrics
 
-| Baseline | Training data | EER ↓ | Acc @ 0.5 | Bal Acc @ EER | Source |
-|---|---|---:|---:|---:|---|
-| **RawNet2** (LJSpeech-augmented) | ASVspoof 2019 LA + LJSpeech | **0.1098** | 0.9236 | 0.8762 | `Rawnet2/outputs/rawnet2_ljspeech_aug_whisper_metrics.json` |
-| **LCNN** (LJSpeech-augmented) | ASVspoof 2019 LA + LJSpeech | 0.1719 | 0.8498 | 0.8280 | `LCNN/artifacts/reports/lcnn_metrics_subset_74432_ljspeechmix.json` |
-| **LCNN** (original) | ASVspoof 2019 LA only | 0.1845 | 0.8619 | 0.8155 | `LCNN/artifacts/reports/lcnn_metrics_subset_74432_old.json` |
-| **CQCC-GMM** (retrain) | ASVspoof 2019 LA + LJSpeech | 0.6709 | 0.8740 | — | `CQCC-GMM/reports/eval_2021la_whisper_subset_retrain_300k/evaluation_metrics.csv` |
-| **AASIST** | ASVspoof 2019 LA + LJSpeech | 0.2350| 0.9400 | — |  |
+| Baseline | Training data | EER ↓ | Acc @ 0.5 | Bal Acc @ EER | 
+|---|---|---:|---:|---:|
+| **RawNet2** (LJSpeech-augmented) | ASVspoof 2019 LA + LJSpeech | **0.1098** | 0.9236 | 0.8762 | 
+| **LCNN** (LJSpeech-augmented) | ASVspoof 2019 LA + LJSpeech | 0.1719 | 0.8498 | 0.8280 | 
+| **LCNN** (original) | ASVspoof 2019 LA only | 0.1845 | 0.8619 | 0.8155 | 
+| **CQCC-GMM** (retrain) | ASVspoof 2019 LA + LJSpeech | 0.6709 | 0.8740 | — | 
+| **AASIST** | ASVspoof 2019 LA + LJSpeech | 0.2350| 0.9400 | — |
 
 ### Reading the Numbers
 
