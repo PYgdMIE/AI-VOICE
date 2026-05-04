@@ -3,7 +3,7 @@
 This repository contains three independent voice anti-spoofing model packages.
 
 ## Contents
-
+- `AASIST/` - AASIST reproduced neural baseline based on Jung et al. (2021), implemented and evaluated in Python.
 - `CQCC-GMM/` - CQCC feature extraction plus GMM baseline package.
 - `Rawnet2/` - RawNet2 end-to-end neural baseline package.
 - `LCNN/` - LCNN acoustic baseline package, including ASVspoof2019 + LJSpeech training scripts and ASVspoof2021 subset evaluation reports.
@@ -27,6 +27,7 @@ Tracked patterns:
 
 ```text
 AI-VOICE/
+  AASIST/
   CQCC-GMM/
   Rawnet2/
   LCNN/
@@ -61,16 +62,23 @@ All baselines are evaluated on the **same** ASVspoof 2021 LA Whisper-merged subs
 | **LCNN** (LJSpeech-augmented) | ASVspoof 2019 LA + LJSpeech | 0.1719 | 0.8498 | 0.8280 | `LCNN/artifacts/reports/lcnn_metrics_subset_74432_ljspeechmix.json` |
 | **LCNN** (original) | ASVspoof 2019 LA only | 0.1845 | 0.8619 | 0.8155 | `LCNN/artifacts/reports/lcnn_metrics_subset_74432_old.json` |
 | **CQCC-GMM** (retrain) | ASVspoof 2019 LA + LJSpeech | 0.6709 | 0.8740 | — | `CQCC-GMM/reports/eval_2021la_whisper_subset_retrain_300k/evaluation_metrics.csv` |
-| **AASIST** | — | _pending_ | — | — | not yet uploaded |
+| **AASIST** | ASVspoof 2019 LA + LJSpeech | 0.2350| 0.9400 | — |  |
 
 ### Reading the Numbers
 
 - **RawNet2 is currently the strongest single baseline**, with an EER of approximately 11%.
-- **LCNN is the second strongest baseline**, with an EER around 17–18%.
-- **CQCC-GMM is a weak traditional reference baseline.** Its 87% accuracy is misleading because the evaluation subset is approximately 90% spoof. At the default threshold, it correctly identifies only **1 out of 7,457** bonafide utterances.
-- This is why **EER, rather than accuracy, is used as the primary metric** across this repository.
-- **LJSpeech bonafide augmentation improves LCNN**, reducing EER from 0.1845 to 0.1719, which is around a 7% relative improvement.
 
+- **LCNN is the second strongest baseline**, with an EER around 17%.
+
+- **AASIST achieves high default-threshold accuracy**, but its EER is higher than RawNet2 and LCNN in our current experiment.
+
+- The AASIST result may be affected by the incomplete dataset download, since 745 bonafide files were missing during evaluation.
+
+- **CQCC-GMM is a weak traditional reference baseline.** Its 87% accuracy is misleading because the evaluation subset is approximately 90% spoof. At the default threshold, it correctly identifies only **1 out of 7,457** bonafide utterances.
+
+- This is why **EER, rather than accuracy, is used as the primary metric** across this repository.
+
+- **LJSpeech bonafide augmentation improves LCNN**, reducing EER from 0.1845 to 0.1719, which is around a 7% relative improvement.
 ### Confusion Matrices at the Default Threshold
 
 The neural baselines use a default threshold of 0.5, while CQCC-GMM uses a threshold of 0.
@@ -81,4 +89,18 @@ The neural baselines use a default threshold of 0.5, while CQCC-GMM uses a thres
 | LCNN (LJSpeech-augmented) | 57,435 | 5,820 | 1,637 | 9,540 |
 | LCNN (original) | 58,963 | 5,193 | 2,264 | 8,012 |
 | CQCC-GMM | 65,055 | 1 | 1,920 | 7,456 |
+| AASIST | — | 3,532 / 6,712 | — | — |
 
+## Overall Take-away
+
+Among the current baselines, RawNet2 performs best, followed by LCNN.  
+
+Adding LJSpeech improves LCNN by reducing EER and improving bonafide recognition.  
+
+AASIST shows reasonable performance but may be affected by incomplete evaluation data.  
+
+CQCC-GMM remains useful as a traditional reference baseline, but it performs poorly in terms of EER and bonafide recognition.
+
+Overall, these results show that accuracy alone can be misleading on this imbalanced test set.  
+
+Therefore, EER and confusion matrix analysis are more important for evaluating AI voice deepfake detection models.
